@@ -1,0 +1,158 @@
+:root {
+  --nav-bg-color-dark: #0d1117;
+  --nav-bg-color-white: #f5f5f5;
+  --body-bg-color-dark: #161b22;
+  --body-bg-color-light: #eeeeee;
+  --brand-color: #ff6a3d;
+  --card-body-color-dark: #21262d;
+  --card-header-color-dark: #0d1117;
+  --card-body-color-light: #f1f3f4;
+  --card-header-color-light: #f5f5f5;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.body-dark {
+  background-color: var(--body-bg-color-dark);
+}
+
+.body-light {
+  background-color: var(--body-bg-color-light);
+}
+
+.title {
+  color: var(--brand-color);
+  margin-left: 10%;
+}
+
+.footer {
+  margin: 0px;
+  padding: 30px;
+}
+.navbar-light {
+  background-color: var(--nav-bg-color-white);
+}
+.navbar-dark {
+  background-color: var(--nav-bg-color-dark);
+}
+.card-dark {
+  background-color: var(--card-body-color-dark);
+  border-radius: 20px;
+  color: #fff5ff;
+  width: 100%;
+  margin: 0px;
+}
+.card-header-dark {
+  background-color: var(--card-header-color-dark);
+}
+
+.card-light {
+  background-color: var(--card-body-color-light);
+  border-radius: 20px;
+  color: #1d221d;
+  width: 100%;
+  margin: 0px;
+}
+.card-header-light {
+  background-color: var(--card-header-color-light);
+}
+
+.card-body-light {
+  background-color: #aafff5;
+}
+
+.card-body-light {
+  background-color: rgb(29, 29, 71);
+}
+
+#pdp {
+  width: 250px;
+  height: 250px;
+  border: 3px solid rgb(153, 58, 15);
+}
+
+.dark-table {
+  background: var(--card-body-color-dark);
+  color: white;
+}
+.dark-table tr {
+  border-bottom: 2px solid rgb(126, 126, 126) 20%;
+}
+
+.light-table {
+  background-color: var(--card-body-color-light);
+  color: black;
+}
+.light-table tr {
+  border-bottom: 2px solid rgb(126, 126, 126) 20%;
+}
+
+.skill {
+  border: 2px solid rgb(153, 58, 15);
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.apropos {
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+.couverture {
+  background-image: url("/assets/img/php-code.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.ityped-cursor {
+  font-size: 2.2rem;
+  opacity: 1;
+  -webkit-animation: blink 0.3s infinite;
+  -moz-animation: blink 0.3s infinite;
+  animation: blink 0.3s infinite;
+  animation-direction: alternate;
+}
+
+.project-link {
+  text-decoration: none;
+}
+
+@keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
+
+.projet {
+  width: 100%;
+  height: 250px;
+}
+.rhja {
+  color: crimson;
+}
+
+#code {
+  font-size: 12px;
+}
