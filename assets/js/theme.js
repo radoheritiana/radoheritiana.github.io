@@ -8,7 +8,7 @@ theme.addEventListener("change", (e) => {
     document.body.classList = "body-dark";
     let cards = document.querySelectorAll("#card");
     cards.forEach((card) => {
-      card.classList = "card card-dark mt-3 shadow-lg";
+      card.classList = "card card-dark mt-3 ";
     });
     let card_headers = document.querySelectorAll("#card-header");
     card_headers.forEach((card_header) => {
@@ -29,7 +29,7 @@ theme.addEventListener("change", (e) => {
     document.body.classList = "body-light";
     let cards = document.querySelectorAll("#card");
     cards.forEach((card) => {
-      card.classList = "card card-light mt-3 shadow-lg";
+      card.classList = "card card-light mt-3 ";
     });
     let card_headers = document.querySelectorAll("#card-header");
     card_headers.forEach((card_header) => {

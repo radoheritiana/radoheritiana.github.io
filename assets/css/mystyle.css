@@ -1,36 +1,75 @@
+@font-face {
+  font-family: "montserrat-semi-bold";
+  src: url("../font/Montserrat-SemiBold.ttf");
+}
+@font-face {
+  font-family: "montserrat-regular";
+  src: url("../font/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "montserrat-light";
+  src: url("../font/Montserrat-Light.ttf");
+}
 :root {
-  --nav-bg-color-dark: #0d1117;
-  --nav-bg-color-white: #f5f5f5;
-  --body-bg-color-dark: #161b22;
-  --body-bg-color-light: #eeeeee;
-  --brand-color: #ff6a3d;
-  --card-body-color-dark: #21262d;
-  --card-header-color-dark: #0d1117;
-  --card-body-color-light: #f1f3f4;
-  --card-header-color-light: #f5f5f5;
+  --nav-bg-color-dark: #0A1334;
+  --nav-bg-color-white: #356eff;
+  --body-bg-color-dark: #1a2838;
+  --body-bg-color-light: #b8ccff;
+  --brand-color: #9A2F43;
+  --card-body-color-dark: #122131;
+  --card-header-color-dark: #060f2f;
+  --card-body-color-light: #85a8ff;
+  --card-header-color-light: #356eff;
 }
 * {
   margin: 0px;
   padding: 0px;
 }
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "montserrat-semi-bold";
   margin: 0px;
   padding: 0px;
 }
 
 .body-dark {
+  color: #e7e7e7;
   background-color: var(--body-bg-color-dark);
 }
 
 .body-light {
+  color: #000000;
   background-color: var(--body-bg-color-light);
+}
+
+.font-light-montserrat {
+  font-family: "montserrat-light";
+}
+.font-regular-montserrat {
+  font-family: "montserrat-regular";
 }
 
 .title {
   color: var(--brand-color);
   margin-left: 10%;
+}
+
+td {
+  font-family: "montserrat-regular";
+}
+
+.projet {
+  width: 100%;
+  height: 250px;
+}
+.navbar-dark .navbar-brand {
+  color: crimson;
+}
+.navbar-light .navbar-brand {
+  color: crimson;
+}
+
+#code {
+  font-size: 12px;
 }
 
 .footer {
@@ -45,8 +84,7 @@ body {
 }
 .card-dark {
   background-color: var(--card-body-color-dark);
-  border-radius: 20px;
-  color: #fff5ff;
+  color: #dfd2df;
   width: 100%;
   margin: 0px;
 }
@@ -56,8 +94,7 @@ body {
 
 .card-light {
   background-color: var(--card-body-color-light);
-  border-radius: 20px;
-  color: #1d221d;
+  color: #2d2d2d;
   width: 100%;
   margin: 0px;
 }
@@ -125,8 +162,22 @@ body {
   animation-direction: alternate;
 }
 
+.card-img {
+  opacity: 15%;
+}
+
 .project-link {
   text-decoration: none;
+}
+.bg-item {
+  background-color: #2f004c;
+}
+
+.portfolio-title {
+  color: crimson;
+}
+.portfolio-description {
+  color: rgb(198, 72, 97);
 }
 
 @keyframes blink {
@@ -145,14 +196,3 @@ body {
   }
 }
 
-.projet {
-  width: 100%;
-  height: 250px;
-}
-.rhja {
-  color: crimson;
-}
-
-#code {
-  font-size: 12px;
-}
