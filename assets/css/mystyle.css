@@ -12,14 +12,14 @@
 }
 :root {
   --nav-bg-color-dark: #0A1334;
-  --nav-bg-color-white: #356eff;
+  --nav-bg-color-white: #91b0ff;
   --body-bg-color-dark: #1a2838;
-  --body-bg-color-light: #b8ccff;
+  --body-bg-color-light: #b2c7fc;
   --brand-color: #9A2F43;
   --card-body-color-dark: #122131;
   --card-header-color-dark: #060f2f;
-  --card-body-color-light: #85a8ff;
-  --card-header-color-light: #356eff;
+  --card-body-color-light: #c4d4fc;
+  --card-header-color-light: #91b0ff;
 }
 * {
   margin: 0px;

@@ -1,539 +1,716 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./assets/img/favicon.ico"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/mystyle.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- CSS only -->
-  <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./assets/css/mystyle.css" />
+    <title>RADOHERITIANA José Alain</title>
+  </head>
 
-  <title>RADOHERITIANA José Alain</title>
-</head>
-
-<body class="body-dark">
-  <nav id="navbar" class="navbar navbar-dark navbar-expand-lg sticky-top shadow">
-    <div class="container-fluid container">
-      <a class="navbar-brand fs-3" href="">{R.H.J.A}</a>
-      <form class="d-flex fs-5 align-items-center" role="search">
-        <i class="fa-solid fa-sun me-2 sun"></i>
-        <div class="form-check form-switch">
-			<label for="theme"></label>
-          <input class="form-check-input theme" name="theme" id="theme" type="checkbox" role="switch" id="flexSwitchCheckChecked" placeholder="theme" checked />
-        </div>
-        <i class="fa-solid fa-moon moon"></i>
-      </form>
-    </div>
-  </nav>
-  <div class="container-fluid container-lg">
-    <div id="card" class="card card-dark text-white mt-3 ">
-      <div id="card-header" class="card-header card-header-dark p-3">
-        <h2 class="title fs-4">
-          <i class="fa-solid fa-address-card"></i> ACCUEIL
-        </h2>
-      </div>
-      <div class="card-body apropos card-body-dark">
-        <div class="row">
-          <div class="col-md-4 couverture p-3">
-            <div class="d-flex justify-content-center">
-              <img id="pdp" src="./assets/img/profil.jpg" alt="profil" class="rounded-circle" />
-            </div>
+  <body class="body-dark">
+    <nav
+      id="navbar"
+      class="navbar navbar-dark navbar-expand-lg sticky-top shadow"
+    >
+      <div class="container-fluid container">
+        <a class="navbar-brand fs-3" href="">{R.H.J.A}</a>
+        <form class="d-flex fs-5 align-items-center" role="search">
+          <i class="fa-solid fa-sun me-2 sun"></i>
+          <div class="form-check form-switch">
+            <label for="theme"></label>
+            <input
+              class="form-check-input theme"
+              name="theme"
+              id="theme"
+              type="checkbox"
+              role="switch"
+              id="flexSwitchCheckChecked"
+              placeholder="theme"
+              checked
+            />
           </div>
-          <div class="col-md-8 fs-5 mt-1 pt-5 pb-5 ps-2 pe-2 text-center">
-            <h2>
-              Bonjour, Je suis <strong> RADOHERITIANA José Alain</strong>
-            </h2>
-            <p class="font-light-montserrat">
-              <span class="fs-4">Développeur web fullstack</span>
-              <br />
-              <b><span id="pres" class="pres"></span></b><br />
-              J'ai toujours soif d'apprendre des nouvelles choses chaque
-              jour...
-            </p>
-            <div class="row font-regular-montserrat">
-              <div class="col">
-                <a class="btn btn-outline-primary btn-lg rounded-pill" role="button" href="#contact">Me contacter</a>
+          <i class="fa-solid fa-moon moon"></i>
+        </form>
+      </div>
+    </nav>
+    <div class="container-fluid container-lg">
+      <div id="card" class="card card-dark text-white mt-3">
+        <div id="card-header" class="card-header card-header-dark p-3">
+          <h2 class="title fs-4">
+            <i class="fa-solid fa-address-card"></i> ACCUEIL
+          </h2>
+        </div>
+        <div class="card-body apropos card-body-dark">
+          <div class="row">
+            <div class="col-md-4 couverture p-3">
+              <div class="d-flex justify-content-center">
+                <img
+                  id="pdp"
+                  src="./assets/img/profil.jpg"
+                  alt="profil"
+                  class="rounded-circle"
+                />
               </div>
-              <div class="col">
-                <button class="btn btn-outline-primary btn-lg rounded-pill">
-                  Download CV
-                </button>
+            </div>
+            <div class="col-md-8 fs-5 mt-1 pt-5 pb-5 ps-2 pe-2 text-center">
+              <h2>
+                Bonjour, Je suis <strong> RADOHERITIANA José Alain</strong>
+              </h2>
+              <p class="font-light-montserrat">
+                <span class="fs-4">Développeur web fullstack</span>
+                <br />
+                <b><span id="pres" class="pres"></span></b><br />
+                J'ai toujours soif d'apprendre des nouvelles choses chaque
+                jour...
+              </p>
+              <div class="row font-regular-montserrat">
+                <div class="col">
+                  <a
+                    class="btn btn-outline-primary btn-lg rounded-pill"
+                    role="button"
+                    href="#contact"
+                    >Me contacter</a
+                  >
+                </div>
+                <div class="col">
+                  <button class="btn btn-outline-primary btn-lg rounded-pill">
+                    Download CV
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div id="card" class="card card-dark text-white mt-3 ">
-      <div id="card-header" class="card-header card-header-dark p-3">
-        <h2 class="title fs-4"><i class="fa-solid fa-user"></i> A PROPOS</h2>
-      </div>
-      <div class="card-body">
-        <div class="row">
-          <div class="col-md-11 mx-auto">
-            <div class="table-responsive mt-3 mb-3">
-              <table id="table" class="table dark-table fs-6">
-                <tr>
-                  <th>Nom</th>
-                  <td>RADOHERITIANA</td>
-                </tr>
-                <tr>
-                  <th>Prénoms</th>
-                  <td>José Alain</td>
-                </tr>
-                <tr>
-                  <th>Adresse</th>
-                  <td>Antsirabe Madagascar</td>
-                </tr>
-                <tr>
-                  <th>Age</th>
-                  <td>22 ans</td>
-                </tr>
-                <tr>
-                  <th>Nationalité</th>
-                  <td>Malagasy</td>
-                </tr>
-              </table>
+      <div id="card" class="card card-dark text-white mt-3">
+        <div id="card-header" class="card-header card-header-dark p-3">
+          <h2 class="title fs-4"><i class="fa-solid fa-user"></i> A PROPOS</h2>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-11 mx-auto">
+              <div class="table-responsive mt-3 mb-3">
+                <table id="table" class="table dark-table fs-6">
+                  <tr>
+                    <th>Nom</th>
+                    <td>RADOHERITIANA</td>
+                  </tr>
+                  <tr>
+                    <th>Prénoms</th>
+                    <td>José Alain</td>
+                  </tr>
+                  <tr>
+                    <th>Adresse</th>
+                    <td>Antsirabe Madagascar</td>
+                  </tr>
+                  <tr>
+                    <th>Age</th>
+                    <td>22 ans</td>
+                  </tr>
+                  <tr>
+                    <th>Nationalité</th>
+                    <td>Malagasy</td>
+                  </tr>
+                </table>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div id="card" class="card card-dark text-white mt-3 ">
-      <div id="card-header" class="card-header card-header-dark p-3">
-        <h2 class="title fs-4">
-          <i class="fa-solid fa-graduation-cap"></i> ETUDES
-        </h2>
-      </div>
-      <div class="card-body">
-        <div class="row">
-          <div class="col-md-4 mt-3 mb-3">
-            <h3 class="text-center font-regular-montserrat">
-              <i class="fa-solid m-2 fs-1 fa-school"></i>
-              2017 - 2018
-            </h3>
-            <p class="fs-4 text-center">
-              Baccalauréat Serie C <br />
-              <span class="fs-6 font-regular-montserrat">Mention Assez bien</span><br />
-              <span class="fs-6 font-light-montserrat">Loterana Farimbona</span>
-            </p>
-          </div>
-          <div class="col-md-4 mt-3 mb-3">
-            <h3 class="text-center font-regular-montserrat">
-              <i class="fa-solid m-2 fs-1 fa-building-columns"></i>
-              2021 - 2022
-            </h3>
-            <p class="fs-4 text-center">
-              Licence en Informatique <br />
-              <span class="fs-6 font-regular-montserrat">Développement d'Application Informatique</span><br />
-              <span class="fs-6 font-light-montserrat">Athénée Saint Joseph Antsirabe</span>
-            </p>
-          </div>
-          <div class="col-md-4 mt-3 mb-3">
-            <h3 class="text-center font-regular-montserrat">
-              <i class="fa-solid m-2 fs-1 fa-building-columns"></i>
-              2022 - 2023
-            </h3>
-            <p class="fs-4 text-center">
-              Master I en Informatique <br />
-              <span class="fs-6 font-regular-montserrat">Génie Logiciel</span> <br />
-              <span class="fs-6 font-light-montserrat">Athénée Saint Joseph Antsirabe</span>
-            </p>
+      <div id="card" class="card card-dark text-white mt-3">
+        <div id="card-header" class="card-header card-header-dark p-3">
+          <h2 class="title fs-4">
+            <i class="fa-solid fa-graduation-cap"></i> PARCOURS ACADEMIQUES
+          </h2>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-4 mt-3 mb-3">
+              <h3 class="text-center font-regular-montserrat">
+                <i class="fa-solid m-2 fs-1 fa-school"></i>
+                2017 - 2018
+              </h3>
+              <p class="fs-4 text-center">
+                Baccalauréat Serie C <br />
+                <span class="fs-6 font-regular-montserrat"
+                  >Mention Assez bien</span
+                ><br />
+                <span class="fs-6 font-light-montserrat"
+                  >Sekoly Loterana Farimbona</span
+                >
+              </p>
+            </div>
+            <div class="col-md-4 mt-3 mb-3">
+              <h3 class="text-center font-regular-montserrat">
+                <i class="fa-solid m-2 fs-1 fa-building-columns"></i>
+                2021 - 2022
+              </h3>
+              <p class="fs-4 text-center">
+                Licence en Informatique <br />
+                <span class="fs-6 font-regular-montserrat"
+                  >Développement d'Application Informatique</span
+                ><br />
+                <span class="fs-6 font-light-montserrat"
+                  >Athénée Saint Joseph Antsirabe</span
+                >
+              </p>
+            </div>
+            <div class="col-md-4 mt-3 mb-3">
+              <h3 class="text-center font-regular-montserrat">
+                <i class="fa-solid m-2 fs-1 fa-building-columns"></i>
+                2022 - 2023
+              </h3>
+              <p class="fs-4 text-center">
+                Master I en Informatique <br />
+                <span class="fs-6 font-regular-montserrat">Génie Logiciel</span>
+                <br />
+                <span class="fs-6 font-light-montserrat"
+                  >Athénée Saint Joseph Antsirabe</span
+                >
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div id="card" class="card card-dark text-white mt-3 ">
-      <div id="card-header" class="card-header card-header-dark p-3">
-        <h2 class="title fs-4">
-          <i class="fa-solid fa-brain"></i> TECHNOLOGIES
-        </h2>
-      </div>
-      <div class="card-body">
-        <div class="row">
-          <div class="col-md-10 mx-auto">
-			<div id="langage-programmation" class="mt-3 mb-5">
-				<h4 class="fs-4 text-center card-title font-regular-montserrat">
-				  <i class="fa-solid fa-database"></i> Langage de programmation
-				</h4>
-				<div class="grid text-center font-light-montserrat">
-				  <div class="btn bg-item text-white m-1 rounded-pill">
-					PHP
-				  </div>
-				  <div class="btn bg-item text-white m-1 rounded-pill">
-					JavaScript
-				  </div>
-				  <div class="btn bg-item text-white m-1 rounded-pill">
-					Java
-				  </div>
-				  <div class="btn bg-item text-white m-1 rounded-pill">
-					Python
-				  </div>
-				  <div class="btn bg-item text-white m-1 rounded-pill">
-					C/C++
-				  </div>
-				  <div class="btn bg-item text-white m-1 rounded-pill">
-					.NET
-				  </div>
-				  <div class="btn bg-item text-white m-1 rounded-pill">
-					Dart
-				  </div>
-				</div>
-			  </div>
-            <div id="dev_web" class="mt-3 mb-5">
-              <h4 class="fs-4 text-center card-title font-regular-montserrat">
-                <i class="fa-solid fa-globe"></i> Développement web
-              </h4>
-              <div>
+      <div id="card" class="card card-dark text-white mt-3">
+        <div id="card-header" class="card-header card-header-dark p-3">
+          <h2 class="title fs-4">
+            <i class="fa-solid fa-brain"></i> CONNAISSANCES EN IT
+          </h2>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-10 mx-auto">
+              <div id="langage-programmation" class="mt-3 mb-5">
+                <h4 class="fs-4 text-center card-title font-regular-montserrat">
+                  <i class="fa-solid fa-code"></i> Langage de programmation
+                </h4>
                 <div class="grid text-center font-light-montserrat">
-                  <!--<div class="btn bg-item text-white m-1 rounded-pill">
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    <i class="fa-brands fa-php"></i> PHP
+                  </div>
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    <i class="fa-brands fa-js"></i> JavaScript
+                  </div>
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    <i class="fa-brands fa-java"></i> Java
+                  </div>
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    <i class="fa-brands fa-python"></i> Python
+                  </div>
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    <i class="fa-solid fa-code"></i> C/C++
+                  </div>
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    <i class="fa-solid fa-code"></i> .NET
+                  </div>
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    <i class="fa-solid fa-code"></i> Dart
+                  </div>
+                </div>
+              </div>
+              <div id="dev_web" class="mt-3 mb-5">
+                <h4 class="fs-4 text-center card-title font-regular-montserrat">
+                  <i class="fa-solid fa-globe"></i> Développement web
+                </h4>
+                <div>
+                  <div class="grid text-center font-light-montserrat">
+                    <div class="btn bg-item text-white m-1 rounded-pill">
+                      <i class="fa-brands fa-html5"></i>
+                      HTML5
+                    </div>
+                    <div class="btn bg-item text-white m-1 rounded-pill">
+                      <i class="fa-brands fa-css3"></i> CSS3
+                    </div>
+                    <div class="btn bg-item text-white m-1 rounded-pill">
+                      <i class="fa-brands fa-js"></i> Vanilla Js
+                    </div>
+                    <div class="btn bg-item text-white m-1 rounded-pill">
+                      <i class="fa-brands fa-php"></i> Modern PHP
+                    </div>
+                    <div class="btn bg-item text-white m-1 rounded-pill">
+                      <i class="fa-brands fa-symfony"></i> Symfony
+                    </div>
+                    <div class="btn bg-item text-white m-1 rounded-pill">
+                      <i class="fa-brands fa-laravel"></i> Laravel
+                    </div>
+                    <div class="btn bg-item text-white m-1 rounded-pill">
+                      <i class="fa-solid fa-code"></i> Codeigniter
+                    </div>
+                    <div class="btn bg-item text-white m-1 rounded-pill">
+                      <i class="fa-brands fa-react"></i>React js
+                    </div>
+                    <div class="btn bg-item text-white m-1 rounded-pill">
+                      <i class="fa-brands fa-angular"></i>Angular js
+                    </div>
+                    <div class="btn bg-item text-white m-1 rounded-pill">
+                      <i class="fa-brands fa-bootstrap"></i> Bootstrap
+                    </div>
+                    <div class="btn bg-item text-white m-1 rounded-pill">
+                      <i class="fa-brands fa-code"></i> tawilwind css
+                    </div>
+                    <div class="btn bg-item text-white m-1 rounded-pill">
+                      <i class="fa-brands fa-js"></i> JQuery
+                    </div>
+                    <div class="btn bg-item text-white m-1 rounded-pill">
+                      <i class="fa-solid fa-code"></i> API REST
+                    </div>
+                    <div class="btn bg-item text-white m-1 rounded-pill">
+                      <i class="fa-brands fa-java"></i> JEE
+                    </div>
+                    <div class="btn bg-item text-white m-1 rounded-pill">
+                      <i class="fa-brands fa-java"></i> Spring boot
+                    </div>
+                    <div class="btn bg-item text-white m-1 rounded-pill">
+                      <i class="fa-brands fa-python"></i> Django
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-3 mb-5">
+                <h4 class="fs-4 text-center card-title font-regular-montserrat">
+                  <i class="fa-solid fa-code"></i> Développement ERP
+                </h4>
+                <div class="grid text-center font-light-montserrat">
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    Odoo avec python
+                  </div>
+                </div>
+              </div>
+              <div id="dev-mobile" class="mt-3 mb-5">
+                <h4 class="fs-4 text-center card-title font-regular-montserrat">
+                  <i class="fa-solid fa-mobile"></i> Développement mobile
+                </h4>
+                <div class="grid text-center font-light-montserrat">
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    Flutter
+                  </div>
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    <i class="fa-brands fa-android"></i> Android avec Java
+                  </div>
+                </div>
+              </div>
+              <div id="database" class="mt-3 mb-5">
+                <h4 class="fs-4 text-center card-title font-regular-montserrat">
+                  <i class="fa-solid fa-database"></i> SGBD
+                </h4>
+                <div class="grid text-center font-light-montserrat">
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    SQLite
+                  </div>
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    MySQL
+                  </div>
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    PostgreSQL
+                  </div>
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    MongoDB
+                  </div>
+                </div>
+              </div>
+              <div id="outils" class="mt-3 mb-5">
+                <h4 class="fs-4 text-center card-title font-regular-montserrat">
+                  <i class="fa-solid fa-fire"></i> OUTILS ET METHODOLOGIES
+                </h4>
+                <div class="grid text-center font-light-montserrat">
+                  <div class="btn bg-item text-white m-1 rounded-pill">
                     <i class="fa-brands fa-git-alt"></i> Git
-                  </div>-->
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-brands fa-html5"></i>
-                    HTML5
                   </div>
                   <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-brands fa-css3"></i> CSS3
+                    <i class="fa-brands fa-docker"></i> Docker
                   </div>
                   <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-brands fa-js"></i> Vanilla Js
+                    Merise
                   </div>
                   <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-brands fa-php"></i> Modern PHP
+                    UML
                   </div>
                   <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-brands fa-symfony"></i> Symfony
+                    Agile
                   </div>
                   <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-brands fa-laravel"></i> Laravel
+                    Principe SOLID
                   </div>
                   <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-solid fa-code"></i> Codeigniter
+                    Théorie de réseau
                   </div>
                   <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-brands fa-react"></i>React js
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-brands fa-angular"></i>Angular js
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-brands fa-bootstrap"></i> Bootstrap
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-brands fa-code"></i> tawilwind css
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-solid fa-code"></i> JQuery
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-solid fa-code"></i> API REST
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-brands fa-java"></i> JEE
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-solid fa-code"></i> Spring boot
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-solid fa-code"></i> Spring boot
+                    Informatique bureautique
                   </div>
                 </div>
               </div>
-            </div>
-			<div id="dev-mobile" class="mt-3 mb-5">
-				<h4 class="fs-4 text-center card-title font-regular-montserrat">
-				  <i class="fa-solid fa-database"></i> Développement mobile
-				</h4>
-				<div class="grid text-center font-light-montserrat">
-				  <div class="btn bg-item text-white m-1 rounded-pill">
-					Flutter
-				  </div>
-				  <div class="btn bg-item text-white m-1 rounded-pill">
-					Java Android
-				  </div>	
-				</div>
-			  </div>
-            <div id="database" class="mt-3 mb-5">
-              <h4 class="fs-4 text-center card-title font-regular-montserrat">
-                <i class="fa-solid fa-database"></i> SGBD
-              </h4>
-              <div class="grid text-center font-light-montserrat">
-                <div class="btn bg-item text-white m-1 rounded-pill">
-                  SQLite
-                </div>
-                <div class="btn bg-item text-white m-1 rounded-pill">
-                  MySQL
-                </div>
-                <div class="btn bg-item text-white m-1 rounded-pill">
-                  PostgreSQL
-                </div>
-                <div class="btn bg-item text-white m-1 rounded-pill">
-                  MongoDB
-                </div>
-              </div>
-            </div>
-            <div id="os" class="mt-3 mb-5">
-              <h4 class="fs-4 text-center card-title font-regular-montserrat">
-                <i class="fa-solid fa-code"></i> Environnement de
-                développement
-              </h4>
-              <div class="grid text-center font-light-montserrat">
-                <div class="btn bg-item text-white m-1 rounded-pill">
-                  <i class="fa-brands fa-windows"></i>
-                  Windows
-                </div>
-                <div class="btn bg-item text-white m-1 rounded-pill">
-                  <i class="fa-brands fa-linux"></i> Linux
-                </div>
-              </div>
-            </div>
-            <div id="outils" class="mt-3 mb-5">
-              <h4 class="fs-4 text-center card-title font-regular-montserrat">
-                <i class="fa-solid fa-code"></i> Outils de développement
-              </h4>
-              <div class="grid text-center font-light-montserrat">
-                <div class="btn bg-item text-white m-1 rounded-pill">
-                  Visual Studio Code
-                </div>
-                <div class="btn bg-item text-white m-1 rounded-pill">
-                  Sublime Text
-                </div>
-                <div class="btn bg-item text-white m-1 rounded-pill">
-                  Pycharm
-                </div>
-                <div class="btn bg-item text-white m-1 rounded-pill">
-                  Android Studio
-                </div>
-                <div class="btn bg-item text-white m-1 rounded-pill">
-                  Intellij Idea
-                </div>
-                <div class="btn bg-item text-white m-1 rounded-pill">
-                  PHP Storm
+              <div id="os" class="mt-3 mb-5">
+                <h4 class="fs-4 text-center card-title font-regular-montserrat">
+                  <i class="fa-solid fa-code"></i> Environnement de
+                  développement
+                </h4>
+                <div class="grid text-center font-light-montserrat">
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    <i class="fa-brands fa-windows"></i>
+                    Windows
+                  </div>
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    <i class="fa-brands fa-linux"></i> Linux
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div id="card" class="card card-dark text-white mt-3 ">
-      <div id="card-header" class="card-header card-header-dark p-3">
-        <h2 class="title fs-4">
-          <i class="fa-solid fa-clipboard-check"></i> QUALITES
-        </h2>
+      <div id="card" class="card card-dark text-white mt-3">
+        <div id="card-header" class="card-header card-header-dark p-3">
+          <h2 class="title fs-4">
+            <i class="fa-solid fa-clipboard-check"></i> CONCOURS ET PRIX
+          </h2>
+        </div>
+        <div class="card-body">
+          <div class="row mt-3 mb-5">
+            <div class="col-md-11 mx-auto"></div>
+          </div>
+        </div>
       </div>
-      <div class="card-body">
-        <div class="row mt-3 mb-5">
-          <div class="col-md-11 mx-auto">
-            <div id="qualite">
-              <div class="grid text-center font-light-montserrat">
-                <div class="btn bg-item text-white m-1 rounded-pill">
-                  <i class="fa-solid fa-square-check"></i> Autodidacte
-                </div>
-                <div class="btn bg-item text-white m-1 rounded-pill">
-                  <i class="fa-solid fa-square-check"></i> Persévérant
-                </div>
-                <div class="btn bg-item text-white m-1 rounded-pill">
-                  <i class="fa-solid fa-square-check"></i> Sens de l'écoute
-                </div>
-                <div class="btn bg-item text-white m-1 rounded-pill">
-                  <i class="fa-solid fa-square-check"></i> Dynamique
-                </div>
-                <div class="btn bg-item text-white m-1 rounded-pill">
-                  <i class="fa-solid fa-square-check"></i> Responsable
-                </div>
-                <div class="btn bg-item text-white m-1 rounded-pill">
-                  <i class="fa-solid fa-square-check"></i> Sérieux
+      <div id="card" class="card card-dark text-white mt-3">
+        <div id="card-header" class="card-header card-header-dark p-3">
+          <h2 class="title fs-4">
+            <i class="fa-solid fa-clipboard-check"></i> QUALITES
+          </h2>
+        </div>
+        <div class="card-body">
+          <div class="row mt-3 mb-5">
+            <div class="col-md-11 mx-auto">
+              <div id="qualite">
+                <div class="grid text-center font-light-montserrat">
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    <i class="fa-solid fa-square-check"></i> Autodidacte
+                  </div>
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    <i class="fa-solid fa-square-check"></i> Persévérant
+                  </div>
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    <i class="fa-solid fa-square-check"></i> Sens de l'écoute
+                  </div>
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    <i class="fa-solid fa-square-check"></i> Dynamique
+                  </div>
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    <i class="fa-solid fa-square-check"></i> Responsable
+                  </div>
+                  <div class="btn bg-item text-white m-1 rounded-pill">
+                    <i class="fa-solid fa-square-check"></i> Sérieux
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div id="card" class="card card-dark text-white mt-3 ">
-      <div id="card-header" class="card-header card-header-dark p-3">
-        <h2 class="title fs-4">
-          <i class="fa-solid fa-clipboard-check"></i> PORTFOLIO
-        </h2>
+      <div id="card" class="card card-dark text-white mt-3">
+        <div id="card-header" class="card-header card-header-dark p-3">
+          <h2 class="title fs-4">
+            <i class="fa-solid fa-clipboard-check"></i> PORTFOLIO
+          </h2>
+        </div>
+        <div class="card-body">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div
+                id="card-portfolio"
+                class="card border-1 border-warning text-bg-dark projet rounded-5"
+              >
+                <img
+                  src="assets/img/user-search.png"
+                  class="card-img rounded-5 w-100 h-100"
+                  alt="..."
+                />
+                <div
+                  class="card-img-overlay text-center d-flex-row justify-content-center align-items-center"
+                >
+                  <h5 class="card-title fs-3 portfolio-title">
+                    Github users search
+                  </h5>
+                  <p
+                    class="card-text fs-5 font-regular-montserrat portfolio-description"
+                  >
+                    Techzara WCC 2022 week 1
+                  </p>
+                  <div class="font-light-montserrat">
+                    <button
+                      class="btn btn-outline-primary btn-sm rounded-pill disabled"
+                    >
+                      React js
+                    </button>
+                    <button
+                      class="btn btn-outline-primary btn-sm rounded-pill disabled"
+                    >
+                      Flask
+                    </button>
+                  </div>
+                  <p
+                    class="card-text font-light-montserrat portfolio-description"
+                  >
+                    <small
+                      ><a
+                        href="https://github.com/twisty-team"
+                        class="project-link"
+                        >Twisty-team</a
+                      >
+                      Septembre 2022</small
+                    >
+                  </p>
+                  <a
+                    href="https://twisty-team-github-users-search.netlify.app"
+                    class="btn btn-outline-warning rounded-pill btn-lg font-regular-montserrat"
+                    ><i class="fa-solid fa-search"></i> Visiter</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                id="card-portfolio"
+                class="card border-1 border-warning text-bg-dark projet rounded-5"
+              >
+                <img
+                  src="assets/img/otrin.png"
+                  class="card-img rounded-5 w-100 h-100"
+                  alt="..."
+                />
+                <div
+                  class="card-img-overlay text-center d-flex-row justify-content-center align-items-center"
+                >
+                  <h5 class="card-title fs-3 portfolio-title">O'trin</h5>
+                  <p
+                    class="card-text fs-5 font-regular-montserrat portfolio-description"
+                  >
+                    Trouvez le bon prix
+                  </p>
+                  <div class="font-light-montserrat">
+                    <button
+                      class="btn btn-outline-primary btn-sm rounded-pill disabled"
+                    >
+                      React js
+                    </button>
+                    <button
+                      class="btn btn-outline-primary btn-sm rounded-pill disabled"
+                    >
+                      Django
+                    </button>
+                  </div>
+                  <p
+                    class="card-text font-light-montserrat portfolio-description"
+                  >
+                    <small
+                      ><a
+                        href="https://github.com/aviaaato"
+                        class="project-link"
+                        >Aviaaato</a
+                      >
+                      Novembre 2022</small
+                    >
+                  </p>
+                  <a
+                    href="https://otrin.netlify.app/"
+                    class="btn btn-outline-warning font-regular-montserrat rounded-pill btn-lg"
+                    ><i class="fa-solid fa-search"></i> Visiter</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                id="card-portfolio"
+                class="card border-1 border-warning text-bg-dark projet rounded-5"
+              >
+                <img
+                  src="assets/img/quiz.png"
+                  class="card-img rounded-5 w-100 h-100"
+                  alt="..."
+                />
+                <div
+                  class="card-img-overlay text-center d-flex-row justify-content-center align-items-center"
+                >
+                  <h5 class="card-title fs-3 portfolio-title">Ankamantatra</h5>
+                  <p
+                    class="card-text fs-5 font-regular-montserrat portfolio-description"
+                  >
+                    Techzara Wcc 2022 final week
+                  </p>
+                  <div class="font-light-montserrat">
+                    <button
+                      class="btn btn-outline-primary btn-sm rounded-pill disabled"
+                    >
+                      Python
+                    </button>
+                  </div>
+                  <p
+                    class="card-text font-light-montserrat portfolio-description"
+                  >
+                    <small
+                      ><a
+                        href="https://github.com/twisty-team"
+                        class="project-link"
+                        >Twisty-team</a
+                      >
+                      Septembre 2022</small
+                    >
+                  </p>
+                  <a
+                    href="https://github.com/twisty-team/ankamantatra"
+                    class="btn btn-outline-warning rounded-pill btn-lg font-regular-montserrat"
+                    ><i class="fa-solid fa-search"></i> Visiter</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                id="card-portfolio"
+                class="card border-1 border-warning text-bg-dark projet rounded-5"
+              >
+                <img
+                  src="assets/img/ytag.png"
+                  class="card-img rounded-5 w-100 h-100"
+                  alt="..."
+                />
+                <div
+                  class="card-img-overlay text-center d-flex-row justify-content-center align-items-center"
+                >
+                  <h5 class="card-title fs-3 portfolio-title">YtagFinder</h5>
+                  <p
+                    class="card-text fs-5 font-regular-montserrat portfolio-description"
+                  >
+                    Youtube video tags finder
+                  </p>
+                  <div class="font-light-montserrat">
+                    <button
+                      class="btn btn-outline-primary btn-sm rounded-pill disabled"
+                    >
+                      React js
+                    </button>
+                    <button
+                      class="btn btn-outline-primary btn-sm rounded-pill disabled"
+                    >
+                      Flask
+                    </button>
+                  </div>
+                  <p
+                    class="card-text font-light-montserrat portfolio-description"
+                  >
+                    <small>RHJA Novembre 2022</small>
+                  </p>
+                  <a
+                    href="https://ytagfinder.onrender.com/"
+                    class="btn btn-outline-warning font-regular-montserrat rounded-pill btn-lg"
+                    ><i class="fa-solid fa-search"></i> Visiter</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="card-body">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div id="card-portfolio" class="card border-1 border-warning text-bg-dark projet rounded-5">
-              <img src="assets/img/user-search.png" class="card-img rounded-5 w-100 h-100" alt="..." />
-              <div class="card-img-overlay text-center d-flex-row justify-content-center align-items-center">
-                <h5 class="card-title fs-3 portfolio-title">Github users search</h5>
-                <p class="card-text fs-5 font-regular-montserrat portfolio-description">Techzara WCC 2022 week 1</p>
-                <div class="font-light-montserrat">
-                  <button class="btn btn-outline-primary btn-sm rounded-pill disabled">
-                    React js
-                  </button>
-                  <button class="btn btn-outline-primary btn-sm rounded-pill disabled">
-                    Flask
-                  </button>
-                </div>
-                <p class="card-text font-light-montserrat portfolio-description">
-                  <small><a href="https://github.com/twisty-team" class="project-link">Twisty-team</a>
-                    Septembre 2022</small>
-                </p>
-                <a href="https://twisty-team-github-users-search.netlify.app"
-                  class="btn btn-outline-warning rounded-pill btn-lg font-regular-montserrat"><i class="fa-solid fa-search"></i> Visiter</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div id="card-portfolio" class="card border-1 border-warning text-bg-dark projet rounded-5">
-              <img src="assets/img/otrin.png" class="card-img rounded-5 w-100 h-100" alt="..." />
-              <div class="card-img-overlay text-center d-flex-row justify-content-center align-items-center">
-                <h5 class="card-title fs-3 portfolio-title">O'trin</h5>
-                <p class="card-text fs-5 font-regular-montserrat portfolio-description">Trouvez le bon prix</p>
-                <div class="font-light-montserrat">
-                  <button class="btn btn-outline-primary btn-sm rounded-pill disabled">
-                    React js
-                  </button>
-                  <button class="btn btn-outline-primary btn-sm rounded-pill disabled">
-                    Django
-                  </button>
-                </div>
-                <p class="card-text font-light-montserrat portfolio-description">
-                  <small><a href="https://github.com/aviaaato" class="project-link">Aviaaato</a>
-                    Novembre 2022</small>
-                </p>
-                <a href="https://otrin.netlify.app/" class="btn btn-outline-warning font-regular-montserrat rounded-pill btn-lg"><i
-                    class="fa-solid fa-search"></i> Visiter</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div id="card-portfolio" class="card border-1 border-warning text-bg-dark projet rounded-5">
-              <img src="assets/img/quiz.png" class="card-img rounded-5 w-100 h-100" alt="..." />
-              <div class="card-img-overlay text-center d-flex-row justify-content-center align-items-center">
-                <h5 class="card-title fs-3 portfolio-title">Ankamantatra</h5>
-                <p class="card-text fs-5 font-regular-montserrat portfolio-description">Techzara Wcc 2022 final week</p>
-                <div class="font-light-montserrat">
-                  <button class="btn btn-outline-primary btn-sm rounded-pill disabled">
-                    Python
-                  </button>
-                </div>
-                <p class="card-text font-light-montserrat portfolio-description">
-                  <small><a href="https://github.com/twisty-team" class="project-link">Twisty-team</a>
-                    Septembre 2022</small>
-                </p>
-                <a href="https://github.com/twisty-team/ankamantatra"
-                  class="btn btn-outline-warning rounded-pill btn-lg font-regular-montserrat"><i class="fa-solid fa-search"></i> Visiter</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div id="card-portfolio" class="card border-1 border-warning text-bg-dark projet rounded-5">
-              <img src="assets/img/ytag.png" class="card-img rounded-5 w-100 h-100" alt="..." />
-              <div class="card-img-overlay text-center d-flex-row justify-content-center align-items-center">
-                <h5 class="card-title fs-3 portfolio-title">YtagFinder</h5>
-                <p class="card-text fs-5 font-regular-montserrat portfolio-description">Youtube video tags finder</p>
-                <div class="font-light-montserrat">
-                  <button class="btn btn-outline-primary btn-sm rounded-pill disabled">
-                    React js
-                  </button>
-                  <button class="btn btn-outline-primary btn-sm rounded-pill disabled">
-                    Flask
-                  </button>
-                </div>
-                <p class="card-text font-light-montserrat portfolio-description">
-                  <small>RHJA Novembre 2022</small>
-                </p>
-                <a href="https://ytagfinder.onrender.com/" class="btn btn-outline-warning font-regular-montserrat rounded-pill btn-lg"><i
-                    class="fa-solid fa-search"></i> Visiter</a>
+      <div id="card" class="card card-dark text-white mt-3" id="contact">
+        <div id="card-header" class="card-header card-header-dark p-3">
+          <h2 class="title fs-4">
+            <i class="fa-solid fa-address-book"></i> CONTACTS
+          </h2>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-11 mx-auto" id="contact">
+              <div class="table-responsive">
+                <table id="table" class="table dark-table">
+                  <tr>
+                    <th class="text-center fs-4">
+                      <i class="fa-solid fa-envelope"></i>
+                    </th>
+                    <td>radoheritiana.rhja.123@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <th class="text-center fs-4">
+                      <i class="fa-brands fa-facebook"></i>
+                    </th>
+                    <td>
+                      <a
+                        href="https://www.facebook.com/jose.alain.radoheritiana.99"
+                        >José Alain Radoheritiana</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="text-center fs-4">
+                      <i class="fa-brands fa-github"></i>
+                    </th>
+                    <td>
+                      <a href="https://github.com/radoheritiana"
+                        >Radoheritiana</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="text-center fs-4">
+                      <i class="fa-solid fa-phone"></i>
+                    </th>
+                    <td>+261337200691 / +261327495039</td>
+                  </tr>
+                  <tr>
+                    <th class="text-center fs-4">
+                      <i class="fa-brands fa-whatsapp"></i>
+                    </th>
+                    <td>+261327495039</td>
+                  </tr>
+                  <tr>
+                    <th class="text-center fs-4">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </th>
+                    <td>
+                      <a
+                        href="https://www.linkedin.com/in/jose-alain-radoheritiana-8bb905217/"
+                        >José Alain Radoheritiana</a
+                      >
+                    </td>
+                  </tr>
+                </table>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div id="card" class="card card-dark text-white mt-3 " id="contact">
-      <div id="card-header" class="card-header card-header-dark p-3">
-        <h2 class="title fs-4">
-          <i class="fa-solid fa-address-book"></i> CONTACTS
-        </h2>
-      </div>
-      <div class="card-body">
-        <div class="row">
-          <div class="col-md-11 mx-auto" id="contact">
-            <div class="table-responsive">
-              <table id="table" class="table dark-table">
-                <tr>
-                  <th class="text-center fs-4">
-                    <i class="fa-solid fa-envelope"></i>
-                  </th>
-                  <td>radoheritiana.rhja.123@gmail.com</td>
-                </tr>
-                <tr>
-                  <th class="text-center fs-4">
-                    <i class="fa-brands fa-facebook"></i>
-                  </th>
-                  <td>
-                    <a href="https://www.facebook.com/jose.alain.radoheritiana.99">José Alain Radoheritiana</a>
-                  </td>
-                </tr>
-                <tr>
-                  <th class="text-center fs-4">
-                    <i class="fa-brands fa-github"></i>
-                  </th>
-                  <td>
-                    <a href="https://github.com/radoheritiana">Radoheritiana</a>
-                  </td>
-                </tr>
-                <tr>
-                  <th class="text-center fs-4">
-                    <i class="fa-solid fa-phone"></i>
-                  </th>
-                  <td>+261337200691 / +261327495039</td>
-                </tr>
-                <tr>
-                  <th class="text-center fs-4">
-                    <i class="fa-brands fa-whatsapp"></i>
-                  </th>
-                  <td>+261327495039</td>
-                </tr>
-                <tr>
-                  <th class="text-center fs-4">
-                    <i class="fa-brands fa-linkedin"></i>
-                  </th>
-                  <td>
-                    <a href="https://www.linkedin.com/in/jose-alain-radoheritiana-8bb905217/">José Alain
-                      Radoheritiana</a>
-                  </td>
-                </tr>
-              </table>
+    <div class="row footer">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <div class="row text-center p-3 font-regular-montserrat">
+            <div class="text-muted">
+              Built by R.H.J.A <span>&copy;</span> 2022
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="row footer">
-    <div class="row">
-      <div class="col-md-8 mx-auto">
-        <div class="row text-center p-3 font-regular-montserrat">
-          <div class="text-muted">
-            Built by R.H.J.A <span>&copy;</span> 2022
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- JavaScript -->
-  <script src="./assets/js/jquery-3.6.0.js"></script>
-  <script src="./assets/js/bootstrap.bundle.min.js"></script>
-  <script src="./assets/js/ityped-cdn.js"></script>
-  <script src="./assets/js/ityped.js"></script>
-  <script src="./assets/js/theme.js"></script>
-</body>
-
+    <!-- JavaScript -->
+    <script src="./assets/js/jquery-3.6.0.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/ityped-cdn.js"></script>
+    <script src="./assets/js/ityped.js"></script>
+    <script src="./assets/js/theme.js"></script>
+  </body>
 </html>
