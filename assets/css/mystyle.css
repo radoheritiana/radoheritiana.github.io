@@ -289,19 +289,19 @@ td {
 @media screen and (max-width: 600px) {
   /* Place the timelime to the left */
   .main-timeline-2::after {
-    left: 31px;
+    left: 5px;
   }
 
   /* Full-width containers */
   .timeline-2 {
     width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
+    padding-left: 40px;
+    padding-right: 5px;
   }
 
   /* Make sure that all arrows are pointing leftwards */
   .timeline-2::before {
-    left: 60px;
+    left: 30px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
@@ -310,7 +310,7 @@ td {
   /* Make sure all circles are at the same spot */
   .left-2::after,
   .right-2::after {
-    left: 18px;
+    left: -10px;
   }
 
   .left-2::before {
@@ -320,5 +320,84 @@ td {
   /* Make all right containers behave like the left ones */
   .right-2 {
     left: 0%;
+  }
+}
+
+/* floating avatar */
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+  }
+}
+
+.avatar {
+  margin-top: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+  transform: translatey(0px);
+  animation: float 3s ease-in-out infinite;
+}
+
+.avatar img { width: 100%; height: auto; }
+
+/* logo hover */
+.navbar::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.navbar:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.navbar::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: hsl(200 100% 80%);
+  z-index: -1;
+  transition: transform .6s ease;
+}
+
+/* Animation property */
+.button-animation {
+  animation: wiggle 2s linear infinite;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
   }
 }
