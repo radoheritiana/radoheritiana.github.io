@@ -1,0 +1,135 @@
+.promo-block {
+  height: 100vh;
+}
+
+.promo-block-firtname {
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
+.social-icons {
+  width: 60px;
+  height: 60px;
+  font-size: 2em;
+}
+
+.skills-title {
+  text-align: left;
+  font-weight: 600;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skills-list-item {
+  background-color: #17bed2;
+  padding: 7px 15px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.skills-list-item:hover {
+  background-color: #0f9fa5;
+  cursor: pointer;
+}
+
+.logo-img {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.logo-img-main {
+  color: #fff;
+}
+
+.logo-img-active {
+  color: #515769;
+}
+
+.presentation {
+  font-size: 20px;
+}
+
+/* card */
+.card {
+	position: relative;
+	height: 300px; /* Ajuster la hauteur selon vos besoins */
+	transition: all 0.2s ease;
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .card:hover {
+	cursor: pointer;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: fill; /* Recouvrir entièrement la carte */
+	overflow: hidden;
+  }
+  
+  .card-content {
+	transition: all 1s ease-in-out;
+	display: none;
+	position: absolute;
+	color: #fff;
+	height: 60%;
+	margin: auto;
+  }
+  
+  .card-content h2{
+	margin-top: 0;
+	color:#17bed2;
+	text-align: center;
+  }
+  
+  .card-content p {
+	color: #fff;
+	text-align: center;
+  }
+
+  .card:hover .card-content {
+	display: block;
+	position: absolute;
+	color: #fff;
+	height: 60%;
+	margin: auto;
+  }
+
+  .card:hover img {
+	filter: brightness(40%);
+  }
+
+  .badges {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+  }
+  
+  .badge {
+	display: inline-block;
+	padding: 10px 10px 5px 10px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	background-color: #17bed2;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 0.8em;
+  }

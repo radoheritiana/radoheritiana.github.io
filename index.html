@@ -1,816 +1,430 @@
 <!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="RADOHERITIANA José Alain, Développeur web fullstack" />
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="./assets/img/favicon.ico"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS only -->
-    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="./assets/fontawesome/css/all.css"
-    />
-    <link rel="stylesheet" href="./assets/css/mystyle.css" />
+<!-- ==============================
+    Project:        Metronic "Aircv" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
+    Version:        1.0
+    Author:         KeenThemes
+    Primary use:    Corporate, Business Themes.
+    Email:          support@keenthemes.com
+    Follow:         http://www.twitter.com/keenthemes
+    Like:           http://www.facebook.com/keenthemes
+    Website:        http://www.keenthemes.com
+    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+================================== -->
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>José Alain RADOHERITIANA</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
 
-    <title>RADOHERITIANA José Alain</title>
-  </head>
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/tabler-icons-3.2.0/webfont/tabler-icons.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 
-  <body class="body-dark">
-    <nav
-      id="navbar"
-      class="navbar navbar-dark navbar-expand-lg sticky-top shadow"
-    >
-      <div class="container-fluid container">
-        <a class="navbar-brand fs-3" href="/">{R.H.J.A}</a>
-        <form class="d-flex fs-5 align-items-center" role="search">
-          <i class="fa-solid fa-sun me-2 sun"></i>
-          <div class="form-check form-switch">
-            <label for="theme"></label>
-            <input
-              class="form-check-input theme"
-              name="theme"
-              id="theme"
-              type="checkbox"
-              role="switch"
-              id="flexSwitchCheckChecked"
-              placeholder="theme"
-              checked
-            />
-          </div>
-          <i class="fa-solid fa-moon moon"></i>
-        </form>
-      </div>
-    </nav>
-    <div class="container-fluid container-lg">
-      <div id="card" class="card card-dark text-white mt-3 animated fadeIn">
-        <div id="card-header" class="card-header card-header-dark p-3">
-          <h2 class="title fs-4">
-            <i class="fa-solid fa-address-card"></i> ACCUEIL
-          </h2>
-        </div>
-        <div class="card-body apropos card-body-dark">
-          <div class="row">
-            <div class="col-md-4 couverture p-3">
-              <div class="d-flex justify-content-center">
-                <div class="avatar">
-                  <img
-                    id="pdp"
-                    src="./assets/img/profil.webp"
-                    alt="profil"
-                    class="rounded-circle"
-                  />
-                </div>
-              </div>
-            </div>
-            <div class="col-md-8 fs-5 mt-1 pt-5 pb-5 ps-2 pe-2 text-center">
-              <h2>
-                Bonjour, Je suis <strong> RADOHERITIANA José Alain</strong>
-              </h2>
-              <p class="font-light-montserrat">
-                <span class="fs-4">Développeur web fullstack</span>
-                <br />
-                <b><span id="pres" class="pres"></span></b><br />
-                J'ai toujours soif d'apprendre des nouvelles choses chaque
-                jour...
-              </p>
-              <div class="row font-regular-montserrat">
-                <div class="col">
-                  <a
-                    class="btn btn-outline-primary btn-lg rounded-pill button-animation m-1"
-                    role="button"
-                    href="#contact"
-                    >Me contacter</a
-                  >
-                </div>
-                <div class="col">
-                  <a
-                    href="https://drive.google.com/file/d/1CF1QTfLPdgklJQnoz7eECEUcQhMX_-lE/view?usp=share_link"
-                    class="btn btn-outline-primary btn-lg rounded-pill button-animation m-1"
-                  >
-                    Download CV
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="card" class="card card-dark text-white mt-3 animated reveal">
-        <div id="card-header" class="card-header card-header-dark p-3">
-          <h2 class="title fs-4"><i class="fa-solid fa-user"></i> A PROPOS</h2>
-        </div>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-md-11 mx-auto">
-              <div class="table-responsive mt-3 mb-3">
-                <table id="table" class="table dark-table fs-6">
-                  <tr>
-                    <th>Nom</th>
-                    <td>RADOHERITIANA</td>
-                  </tr>
-                  <tr>
-                    <th>Prénoms</th>
-                    <td>José Alain</td>
-                  </tr>
-                  <tr>
-                    <th>Adresse</th>
-                    <td>Antsirabe Madagascar</td>
-                  </tr>
-                  <tr>
-                    <th>Age</th>
-                    <td>22 ans</td>
-                  </tr>
-                  <tr>
-                    <th>Nationalité</th>
-                    <td>Malagasy</td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="card" class="card card-dark text-white mt-3 animated reveal">
-        <div id="card-header" class="card-header card-header-dark p-3">
-          <h2 class="title fs-4">
-            <i class="fa-solid fa-graduation-cap"></i> PARCOURS ACADEMIQUES
-          </h2>
-        </div>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-md-4 mt-3 mb-3">
-              <h3 class="text-center font-regular-montserrat">
-                <i class="fa-solid m-2 fs-1 fa-school"></i>
-                2017 - 2018
-              </h3>
-              <p class="fs-4 text-center">
-                Baccalauréat Serie C <br />
-                <span class="fs-6 font-regular-montserrat"
-                  >Mention Assez bien</span
-                ><br />
-                <span class="fs-6 font-light-montserrat"
-                  >Sekoly Loterana Farimbona</span
-                >
-              </p>
-            </div>
-            <div class="col-md-4 mt-3 mb-3">
-              <h3 class="text-center font-regular-montserrat">
-                <i class="fa-solid m-2 fs-1 fa-building-columns"></i>
-                2021 - 2022
-              </h3>
-              <p class="fs-4 text-center">
-                Licence en Informatique <br />
-                <span class="fs-6 font-regular-montserrat"
-                  >Développement d'Application Informatique</span
-                ><br />
-                <span class="fs-6 font-light-montserrat"
-                  >Athénée Saint Joseph Antsirabe</span
-                >
-              </p>
-            </div>
-            <div class="col-md-4 mt-3 mb-3">
-              <h3 class="text-center font-regular-montserrat">
-                <i class="fa-solid m-2 fs-1 fa-building-columns"></i>
-                2022 - 2023
-              </h3>
-              <p class="fs-4 text-center">
-                Master I en Informatique <br />
-                <span class="fs-6 font-regular-montserrat">Génie Logiciel</span>
-                <br />
-                <span class="fs-6 font-light-montserrat"
-                  >Athénée Saint Joseph Antsirabe</span
-                >
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="card" class="card card-dark text-white mt-3 animated reveal">
-        <div id="card-header" class="card-header card-header-dark p-3">
-          <h2 class="title fs-4">
-            <i class="fa-solid fa-brain"></i> CONNAISSANCES EN IT
-          </h2>
-        </div>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-md-10 mx-auto">
-              <div id="langage-programmation" class="mt-3 mb-5 animated reveal">
-                <h4 class="fs-4 text-center card-title font-regular-montserrat">
-                  <i class="fa-solid fa-code"></i> Langage de programmation
-                </h4>
-                <div class="grid text-center font-light-montserrat">
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-brands fa-php"></i> PHP
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-brands fa-js"></i> JavaScript
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-brands fa-java"></i> Java
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-brands fa-python"></i> Python
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-solid fa-code"></i> C/C++
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-solid fa-code"></i> .NET
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-solid fa-code"></i> Dart
-                  </div>
-                </div>
-              </div>
-              <div id="dev_web" class="mt-3 mb-5 animated reveal">
-                <h4 class="fs-4 text-center card-title font-regular-montserrat">
-                  <i class="fa-solid fa-globe"></i> Développement web
-                </h4>
-                <div>
-                  <div class="grid text-center font-light-montserrat">
-                    <div class="btn bg-item text-white m-1 rounded-pill">
-                      <i class="fa-brands fa-html5"></i>
-                      HTML5
-                    </div>
-                    <div class="btn bg-item text-white m-1 rounded-pill">
-                      <i class="fa-brands fa-css3"></i> CSS3
-                    </div>
-                    <div class="btn bg-item text-white m-1 rounded-pill">
-                      <i class="fa-brands fa-js"></i> Vanilla Js
-                    </div>
-                    <div class="btn bg-item text-white m-1 rounded-pill">
-                      <i class="fa-brands fa-php"></i> Modern PHP
-                    </div>
-                    <div class="btn bg-item text-white m-1 rounded-pill">
-                      <i class="fa-brands fa-symfony"></i> Symfony
-                    </div>
-                    <div class="btn bg-item text-white m-1 rounded-pill">
-                      <i class="fa-brands fa-laravel"></i> Laravel
-                    </div>
-                    <div class="btn bg-item text-white m-1 rounded-pill">
-                      <i class="fa-solid fa-code"></i> Codeigniter
-                    </div>
-                    <div class="btn bg-item text-white m-1 rounded-pill">
-                      <i class="fa-brands fa-react"></i>React js
-                    </div>
-                    <div class="btn bg-item text-white m-1 rounded-pill">
-                      <i class="fa-brands fa-angular"></i>Angular js
-                    </div>
-                    <div class="btn bg-item text-white m-1 rounded-pill">
-                      <i class="fa-brands fa-bootstrap"></i> Bootstrap
-                    </div>
-                    <div class="btn bg-item text-white m-1 rounded-pill">
-                      <i class="fa-brands fa-code"></i> tawilwind css
-                    </div>
-                    <div class="btn bg-item text-white m-1 rounded-pill">
-                      <i class="fa-brands fa-js"></i> JQuery
-                    </div>
-                    <div class="btn bg-item text-white m-1 rounded-pill">
-                      <i class="fa-solid fa-code"></i> API REST
-                    </div>
-                    <div class="btn bg-item text-white m-1 rounded-pill">
-                      <i class="fa-brands fa-java"></i> JEE
-                    </div>
-                    <div class="btn bg-item text-white m-1 rounded-pill">
-                      <i class="fa-brands fa-java"></i> Spring boot
-                    </div>
-                    <div class="btn bg-item text-white m-1 rounded-pill">
-                      <i class="fa-brands fa-python"></i> Django
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="mt-3 mb-5 animated reveal">
-                <h4 class="fs-4 text-center card-title font-regular-montserrat">
-                  <i class="fa-solid fa-code"></i> Développement ERP
-                </h4>
-                <div class="grid text-center font-light-montserrat">
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    Odoo avec python
-                  </div>
-                </div>
-              </div>
-              <div id="dev-mobile" class="mt-3 mb-5 animated reveal">
-                <h4 class="fs-4 text-center card-title font-regular-montserrat">
-                  <i class="fa-solid fa-mobile"></i> Développement mobile
-                </h4>
-                <div class="grid text-center font-light-montserrat">
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    Flutter
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-brands fa-android"></i> Android avec Java
-                  </div>
-                </div>
-              </div>
-              <div id="database" class="mt-3 mb-5 animated reveal">
-                <h4 class="fs-4 text-center card-title font-regular-montserrat">
-                  <i class="fa-solid fa-database"></i> SGBD
-                </h4>
-                <div class="grid text-center font-light-montserrat">
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    SQLite
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    MySQL
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    PostgreSQL
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    MongoDB
-                  </div>
-                </div>
-              </div>
-              <div id="outils" class="mt-3 mb-5 animated reveal">
-                <h4 class="fs-4 text-center card-title font-regular-montserrat">
-                  <i class="fa-solid fa-fire"></i> OUTILS ET METHODOLOGIES
-                </h4>
-                <div class="grid text-center font-light-montserrat">
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-brands fa-git-alt"></i> Git
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-brands fa-docker"></i> Docker
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    Merise
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">UML</div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    Agile
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    Principe SOLID
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    Théorie de réseau
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    Informatique bureautique
-                  </div>
-                </div>
-              </div>
-              <div id="os" class="mt-3 mb-5 animated reveal">
-                <h4 class="fs-4 text-center card-title font-regular-montserrat">
-                  <i class="fa-solid fa-code"></i> Environnement de
-                  développement
-                </h4>
-                <div class="grid text-center font-light-montserrat">
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-brands fa-windows"></i>
-                    Windows
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    <i class="fa-brands fa-linux"></i> Linux
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="card" class="card card-dark text-white mt-3 animated reveal">
-        <div id="card-header" class="card-header card-header-dark p-3">
-          <h2 class="title fs-4">
-            <i class="fa-solid fa-clipboard-check"></i> CONCOURS ET PRIX
-          </h2>
-        </div>
-        <div class="card-body">
-          <div class="row mt-3 mb-5">
-            <div class="col-md-9 col-sm-12 mx-auto">
-              <section>
-                <div class="container py-5">
-                  <div class="main-timeline-2">
-                    <div class="timeline-2 left-2 animated reveal">
-                      <div class="card">
-                        <img
-                          src="/assets/img/event/hiu22.webp"
-                          class="card-img-top"
-                          alt="Responsive image"
-                        />
-                        <div class="card-body p-4">
-                          <h4 class="fw-bold mb-4 portfolio-title">
-                            Hackation inter-univeritaire (HIU)
-                          </h4>
-                          <p class="text-muted mb-4">
-                            <i class="far fa-clock" aria-hidden="true"></i>Avril
-                            2O22
-                          </p>
-                          <p class="mb-0 portfolio-description">
-                            Premier participation
-                            <a href="https://www.facebook.com/profile.php?id=100087949707326">Spudster team</a>
-                          </p>
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="css/animate.css" rel="stylesheet">
+
+        <!-- THEME STYLES -->
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Perso css -->
+        <link href="css/perso.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/favicon.ico"/>
+    </head>
+    <!-- END HEAD -->
+
+    <!-- BODY -->
+    <body id="body" data-spy="scroll" data-target=".header">
+
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container js_nav-item">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a class="logo-wrap" href="#body">
+                                <h3 class="logo-img logo-img-main">{rhja}</h3>
+                                <h3 class="logo-img logo-img-active">{rhja}</h3>
+                            </a>
                         </div>
-                      </div>
+                        <!-- End Logo -->
                     </div>
-                    <div class="timeline-2 right-2 animated reveal">
-                      <div class="card">
-                        <img
-                          src="/assets/img/event/wcc.webp"
-                          class="card-img-top"
-                          alt="Responsive image"
-                        />
-                        <div class="card-body p-4">
-                          <h4 class="fw-bold mb-4 portfolio-title">
-                            Weekly Coding Challenge (WCC)
-                          </h4>
-                          <p class="text-muted mb-4">
-                            <i class="far fa-clock" aria-hidden="true"></i
-                            >Septembre 2022
-                          </p>
-                          <p class="mb-0 portfolio-description">
-                            Categorie DEV<br />
-                            Premier place<br />
-                            <a href="https://www.facebook.com/profile.php?id=100087949707326">Twisty-team</a>
-                          </p>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#skills">Skills</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Experience</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Work</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                            </ul>
                         </div>
-                      </div>
                     </div>
-                    <div class="timeline-2 left-2 animated reveal">
-                      <div class="card">
-                        <img
-                          src="/assets/img/event/spudster.webp"
-                          class="card-img-top"
-                          alt="Responsive image"
-                        />
-                        <div class="card-body p-4">
-                          <h4 class="fw-bold mb-4 portfolio-title">
-                            Hackation IFM
-                          </h4>
-                          <p class="text-muted mb-4">
-                            <i class="far fa-clock" aria-hidden="true"></i> 2022
-                          </p>
-                          <p class="mb-0 portfolio-description">
-                            <a href="https://www.facebook.com/profile.php?id=100087949707326">Spudster team</a>
-                          </p>
+                    <!-- End Navbar Collapse -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!--========== END HEADER ==========-->
+
+        <!--========== SLIDER ==========-->
+        <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="img/me2.png">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="promo-block-divider">
+                            <h1 class="promo-block-title promo-block-firtname">José Alain</h1>
+                            <h1 class="promo-block-title">RADOHERITIANA</h1>
+                            <p class="promo-block-text"><i class="ti ti-terminal"></i> <span id="type" class="promo-block-text"></span></p>
                         </div>
-                      </div>
+                        <ul class="list-inline margin-b-30">
+                            <li><a target="_blank" href="https://github.com/radoheritiana" class="social-icons"><i class="ti ti-brand-github"></i></a></li>
+                            <li><a target="_blank" href="mailto:jradoheritiana@gmail.com" class="social-icons"><i class="ti ti-brand-gmail"></i></a></li>
+                            <li><a target="_blank" href="https://wa.me/+261339332385" class="social-icons"><i class="ti ti-brand-whatsapp"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/josé-alain-radoheritiana-8bb905217" class="social-icons"><i class="ti ti-brand-linkedin"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/jose.alain.radoheritiana.99" class="social-icons"><i class="ti ti-brand-facebook"></i></a></li>
+                        </ul>
+                        <button class="btn btn-default btn-lg" type="button">Download CV</button>
                     </div>
-                    <div class="timeline-2 right-2 animated reveal">
-                      <div class="card">
-                        <img
-                          src="/assets/img/event/hiu23.webp"
-                          class="card-img-top"
-                          alt="Responsive image"
-                        />
-                        <div class="card-body p-4">
-                          <h4 class="fw-bold mb-4 portfolio-title">
-                            Hackation inter-univeritaire (HIU)
-                          </h4>
-                          <p class="text-muted mb-4">
-                            <i class="far fa-clock" aria-hidden="true"></i>Mars
-                            2023
-                          </p>
-                          <p class="mb-0 portfolio-description">
-                            Deuxième participation<br />
-                            Troisième place <br />
-                            <a href="https://www.facebook.com/profile.php?id=100087949707326">Spudster team</a>
-                          </p>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!--========== SLIDER ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- About -->
+        <div id="about">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">Intro</h2>
+                            <p>What I am all about.</p>
                         </div>
-                      </div>
                     </div>
-                  </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <div class="margin-b-60 text-justify">
+                            <p class="presentation">Hi everyone! My name is Rado. I am a 24-year-old computer science student from Madagascar, currently preparing my engineering degree at ASJA. I am passionate about new technology and I am always eager to learn new things. I am always up for a challenge and I am not afraid to step outside of my comfort zone.</p>
+                            <p class="presentation">In addition to my passion for technology, I also have a number of other interests. I love to play football. I also love the thrill of exploring the open road on my motorcycle. It's a great way to escape the hustle and bustle of everyday life and clear my head.</p>
+                        </div>
+
+                    </div>
                 </div>
-              </section>
+                <!--// end row -->
             </div>
-          </div>
         </div>
-      </div>
-      <div id="card" class="card card-dark text-white mt-3 animated reveal">
-        <div id="card-header" class="card-header card-header-dark p-3">
-          <h2 class="title fs-4">
-            <i class="fa-solid fa-clipboard-check"></i> QUALITES
-          </h2>
-        </div>
-        <div class="card-body">
-          <div class="row mt-3 mb-5">
-            <div class="col-md-11 mx-auto">
-              <div id="qualite">
-                <div class="grid text-center font-light-montserrat">
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    Autodidacte
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    Persévérant
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    Sens de l'écoute
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    Dynamique
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    Responsable
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    Sérieux
-                  </div>
-                  <div class="btn bg-item text-white m-1 rounded-pill">
-                    Travail en equipe
-                  </div>
+        <!-- End About -->
+
+        <!-- Skills -->
+        <div id="skills">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">Skills</h2>
+                            <p>What I can do.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <h4 class="skills-title">Web Development</h4>
+                        <div class="skills-list">
+                            <div class="skills-list-item">HTML</div>
+                            <div class="skills-list-item">CSS</div>
+                            <div class="skills-list-item"><i class="ti ti-brand-php"></i> PHP</div>
+                            <div class="skills-list-item"><i class="ti ti-brand-javascript"></i> JavaScript</div>
+                            <div class="skills-list-item"><i class="ti ti-brand-symfony"></i> Symfony</div>
+                            <div class="skills-list-item">Spring Boot</div>
+                            <div class="skills-list-item">Codeigniter</div>
+                            <div class="skills-list-item"><i class="ti ti-brand-django"></i> Django</div>
+                            <div class="skills-list-item"><i class="ti ti-brand-react"></i> React Js</div>
+                            <div class="skills-list-item"><i class="ti ti-brand-bootstrap"></i> Bootstrap</div>
+                            <div class="skills-list-item"><i class="ti ti-json"></i> JSON</div>
+                            <div class="skills-list-item"><i class="ti ti-code"></i> JQuery</div>
+                            <div class="skills-list-item"><i class="ti ti-code"></i> AJAX</div>
+                            <div class="skills-list-item"><i class="ti ti-api"></i> REST API</div>
+                        </div>
+                        <hr>
+                        <h4 class="skills-title">Mobile Development</h4>
+                        <div class="skills-list">
+                            <div class="skills-list-item"><i class="ti ti-brand-flutter"></i> Flutter</div>
+                            <div class="skills-list-item"><i class="ti ti-brand-android"></i> Android with Java</div>
+                        </div>
+                        <hr>
+                        <h4 class="skills-title">Database</h4>
+                        <div class="skills-list">
+                            <div class="skills-list-item"><i class="ti ti-database"></i> SQLite</div>
+                            <div class="skills-list-item"><i class="ti ti-brand-mysql"></i> MySQL</div>
+                            <div class="skills-list-item"><i class="ti ti-database"></i> PostgreSQL</div>
+                            <div class="skills-list-item"><i class="ti ti-brand-mongodb"></i> MongoDB</div>
+                            <div class="skills-list-item"><i class="ti ti-database"></i> Oracle</div>
+                        </div>
+                        <hr>
+                        <h4 class="skills-title">Other</h4>
+                        <div class="skills-list">
+                            <div class="skills-list-item"><i class="ti ti-brand-git"></i> GIT</div>
+                            <div class="skills-list-item"><i class="ti ti-brand-docker"></i> Docker</div>
+                            <div class="skills-list-item">UML</div>
+                            <div class="skills-list-item">Merise</div>
+                            <div class="skills-list-item">Office automation software</div>
+                            <div class="skills-list-item"><i class="ti ti-network"></i> Network theory</div>
+                            <div class="skills-list-item"><i class="ti ti-brand-windows"></i> Windows</div>
+                            <div class="skills-list-item"><i class="ti ti-brand-debian"></i> Linux</div>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <!--// end row -->
             </div>
-          </div>
         </div>
-      </div>
-      <div id="card" class="card card-dark text-white mt-3 animated reveal">
-        <div id="card-header" class="card-header card-header-dark p-3">
-          <h2 class="title fs-4">
-            <i class="fa-solid fa-clipboard-check"></i> PORTFOLIO
-          </h2>
-        </div>
-        <div class="card-body">
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div
-                id="card-portfolio"
-                class="card border-1 border-warning text-bg-dark projet rounded-5"
-              >
-                <img
-                  src="assets/img/user-search.webp"
-                  class="card-img rounded-5 w-100 h-100"
-                  alt="..."
-                />
-                <div
-                  class="card-img-overlay text-center d-flex-row justify-content-center align-items-center"
-                >
-                  <h5 class="card-title fs-3 portfolio-title">
-                    Github users search
-                  </h5>
-                  <p
-                    class="card-text fs-5 font-regular-montserrat portfolio-description"
-                  >
-                    Techzara WCC 2022 week 1
-                  </p>
-                  <div class="font-light-montserrat">
-                    <button
-                      class="btn btn-outline-primary btn-sm rounded-pill disabled"
-                    >
-                      React js
-                    </button>
-                    <button
-                      class="btn btn-outline-primary btn-sm rounded-pill disabled"
-                    >
-                      Flask
-                    </button>
-                  </div>
-                  <p
-                    class="card-text font-light-montserrat portfolio-description"
-                  >
-                    <small
-                      ><a
-                        href="https://github.com/twisty-team"
-                        class="project-link"
-                        >Twisty-team</a
-                      >
-                      Septembre 2022</small
-                    >
-                  </p>
-                  <a
-                    href="https://twisty-team-github-users-search.netlify.app"
-                    class="btn btn-outline-warning rounded-pill btn-lg font-regular-montserrat"
-                    ><i class="fa-solid fa-search"></i> Visiter</a
-                  >
+        <!-- End Skills -->
+
+        <!-- Experience -->
+        <div id="experience">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="container content-lg">
+                    <div class="row">
+                        <div class="col-sm-3 sm-margin-b-30">
+                            <div class="text-right sm-text-left">
+                                <h2 class="margin-b-0">Experience</h2>
+                                <p>What I accomplished</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-sm-offset-1">
+                            <div class="row row-space-2 margin-b-4">
+                                <div class="col-md-4 md-margin-b-4">
+                                    <div class="service" data-height="height">
+                                        <div class="service-element">
+                                            <i class="service-icon ti ti-braces"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3>Developer intern</h3>
+                                            <p class="margin-b-5">FMFP Ankorondrano<br>
+                                            <hr>
+                                            Août - Octobre 2023<br>
+                                            <hr>
+                                            <b>Stacks :</b><br>
+                                            Codeigniter, HTML, CSS, Javascript
+                                            </p>
+                                        </div>
+                                        <a href="#" class="content-wrapper-link"></a>    
+                                    </div>
+                                </div>
+                                <div class="col-md-4 md-margin-b-4">
+                                    <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                                        <div class="service-element">
+                                            <i class="service-icon color-white ti ti-award"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3 class="color-white">Hackathon</h3>
+                                            <p class="color-white margin-b-5">
+                                                Hackathon Inter Universitaire (Third place HIU 2023)
+                                                <hr>
+                                                <span class="color-white">Frontend Awards</span>
+                                                <hr>
+                                                <span class="color-white">24hByWebcup</span>
+                                            </p>
+                                        </div>
+                                        <a href="#" class="content-wrapper-link"></a>    
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service" data-height="height">
+                                        <div class="service-element">
+                                            <i class="service-icon ti ti-code"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3>Personnal Project</h3>
+                                            <p class="margin-b-5">Various personal and school projects carried out
+                                                <hr>Artificial Intelligence<br>Web Development<br>Mobile Development<br>. . .
+                                            </p>
+                                        </div>
+                                        <a href="#" class="content-wrapper-link"></a>    
+                                    </div>
+                                </div>
+                            </div>
+                            <!--// end row -->
+                        </div>
+                    </div>
+                    <!--// end row -->
                 </div>
-              </div>
             </div>
-            <div class="col">
-              <div
-                id="card-portfolio"
-                class="card border-1 border-warning text-bg-dark projet rounded-5"
-              >
-                <img
-                  src="assets/img/otrin.webp"
-                  class="card-img rounded-5 w-100 h-100"
-                  alt="..."
-                />
-                <div
-                  class="card-img-overlay text-center d-flex-row justify-content-center align-items-center"
-                >
-                  <h5 class="card-title fs-3 portfolio-title">O'trin</h5>
-                  <p
-                    class="card-text fs-5 font-regular-montserrat portfolio-description"
-                  >
-                    Trouvez le bon prix
-                  </p>
-                  <div class="font-light-montserrat">
-                    <button
-                      class="btn btn-outline-primary btn-sm rounded-pill disabled"
-                    >
-                      React js
-                    </button>
-                    <button
-                      class="btn btn-outline-primary btn-sm rounded-pill disabled"
-                    >
-                      Django
-                    </button>
-                  </div>
-                  <p
-                    class="card-text font-light-montserrat portfolio-description"
-                  >
-                    <small
-                      ><a
-                        href="https://github.com/aviaaato"
-                        class="project-link"
-                        >Aviaaato</a
-                      >
-                      Novembre 2022</small
-                    >
-                  </p>
-                  <a
-                    href="https://otrin.netlify.app/"
-                    class="btn btn-outline-warning font-regular-montserrat rounded-pill btn-lg"
-                    ><i class="fa-solid fa-search"></i> Visiter</a
-                  >
+        </div>
+        <!-- End Experience -->
+
+        <!-- Work -->
+        <div id="work">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">Works</h2>
+                            <p>I build the real value.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <img src="img/ytag.webp" alt="Image de fond">
+                                    <div class="card-content">
+                                        <h2>Ytag Finder</h2>
+                                        <p>Description de la carte. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                        <div class="badges">
+                                            <span class="badge">React js</span>
+                                            <span class="badge">Flask</span>
+                                            <span class="badge">HTML</span>
+                                            <span class="badge">CSS</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <img src="img/otrin.webp" alt="Image de fond">
+                                    <div class="card-content">
+                                        <h2>Otr'in</h2>
+                                        <p>Description de la carte. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                        <div class="badges">
+                                            <span class="badge">React js</span>
+                                            <span class="badge">HTML</span>
+                                            <span class="badge">CSS</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <img src="img/user-search.webp" alt="Image de fond">
+                                    <div class="card-content">
+                                        <h2>Github user search</h2>
+                                        <p>Description de la carte. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                        <div class="badges">
+                                            <span class="badge">React js</span>
+                                            <span class="badge">HTML</span>
+                                            <span class="badge">CSS</span>
+                                            <span class="badge">Python</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <img src="img/quiz.webp" alt="Image de fond">
+                                    <div class="card-content">
+                                        <h2>Quiz app cli</h2>
+                                        <p>Description de la carte. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                        <div class="badges">
+                                            <span class="badge">Python</span>
+                                            <span class="badge">CLI</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <!--// end row -->
             </div>
-            <div class="col">
-              <div
-                id="card-portfolio"
-                class="card border-1 border-warning text-bg-dark projet rounded-5"
-              >
-                <img
-                  src="assets/img/quiz.webp"
-                  class="card-img rounded-5 w-100 h-100"
-                  alt="..."
-                />
-                <div
-                  class="card-img-overlay text-center d-flex-row justify-content-center align-items-center"
-                >
-                  <h5 class="card-title fs-3 portfolio-title">Ankamantatra</h5>
-                  <p
-                    class="card-text fs-5 font-regular-montserrat portfolio-description"
-                  >
-                    Techzara Wcc 2022 final week
-                  </p>
-                  <div class="font-light-montserrat">
-                    <button
-                      class="btn btn-outline-primary btn-sm rounded-pill disabled"
-                    >
-                      Python
-                    </button>
-                  </div>
-                  <p
-                    class="card-text font-light-montserrat portfolio-description"
-                  >
-                    <small
-                      ><a
-                        href="https://github.com/twisty-team"
-                        class="project-link"
-                        >Twisty-team</a
-                      >
-                      Septembre 2022</small
-                    >
-                  </p>
-                  <a
-                    href="https://github.com/twisty-team/ankamantatra"
-                    class="btn btn-outline-warning rounded-pill btn-lg font-regular-montserrat"
-                    ><i class="fa-solid fa-search"></i> Visiter</a
-                  >
+        </div>
+        <!-- End Work -->
+            
+        <!-- Contact -->
+        <div id="contact">
+            <div class="bg-color-sky-light">
+                <div class="container content-lg">
+                    <div class="row">
+                        <div class="col-sm-3 sm-margin-b-30">
+                            <div class="text-right sm-text-left">
+                                <h2 class="margin-b-0">Contacts</h2>
+                                <p>Hire me.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-sm-offset-1">
+                            <div class="row">
+                                <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                    <h5><i class="ti ti-map-pin"></i>Location</h5>
+                                    <a href="#">Antsirabe, Madagascar</a>
+                                </div>
+                                <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                    <h5><i class="ti ti-brand-whatsapp"></i> Whatsapp</h5>
+                                    <a href="https://wa.me/+261339332385">+261 33 93 323 85</a>
+                                </div>
+                                <div class="col-md-3 col-xs-6">
+                                    <h5><i class="ti ti-brand-gmail"></i> Email</h5>
+                                    <a href="mailto:jradoheritiana@gmail.com">jradoheritiana@gmail.com</a>
+                                </div>
+                                <div class="col-md-3 col-xs-6">
+                                    <h5><i class="ti ti-brand-facebook"></i> Facebook</h5>
+                                    <a href="https://www.facebook.com/jose.alain.radoheritiana.99">José Alain Radoheritiana</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--// end row -->
                 </div>
-              </div>
             </div>
-            <div class="col">
-              <div
-                id="card-portfolio"
-                class="card border-1 border-warning text-bg-dark projet rounded-5"
-              >
-                <img
-                  src="assets/img/ytag.webp"
-                  class="card-img rounded-5 w-100 h-100"
-                  alt="..."
-                />
-                <div
-                  class="card-img-overlay text-center d-flex-row justify-content-center align-items-center"
-                >
-                  <h5 class="card-title fs-3 portfolio-title">YtagFinder</h5>
-                  <p
-                    class="card-text fs-5 font-regular-montserrat portfolio-description"
-                  >
-                    Youtube video tags finder
-                  </p>
-                  <div class="font-light-montserrat">
-                    <button
-                      class="btn btn-outline-primary btn-sm rounded-pill disabled"
-                    >
-                      React js
-                    </button>
-                    <button
-                      class="btn btn-outline-primary btn-sm rounded-pill disabled"
-                    >
-                      Flask
-                    </button>
-                  </div>
-                  <p
-                    class="card-text font-light-montserrat portfolio-description"
-                  >
-                    <small>RHJA Novembre 2022</small>
-                  </p>
-                  <a
-                    href="https://ytagfinder.onrender.com/"
-                    class="btn btn-outline-warning font-regular-montserrat rounded-pill btn-lg"
-                    ><i class="fa-solid fa-search"></i> Visiter</a
-                  >
+        </div>
+        <!-- End Contact -->
+        <!--========== END PAGE LAYOUT ==========-->
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+            <div class="content container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="margin-b-0 text-center text-muted">2024 - José Alain RADOHERITIANA.</p>
+                    </div>
                 </div>
-              </div>
+                <!--// end row -->
             </div>
-          </div>
-        </div>
-      </div>
-      <div id="card" class="card card-dark text-white mt-3 animated reveal" id="contact">
-        <div id="card-header" class="card-header card-header-dark p-3">
-          <h2 class="title fs-4">
-            <i class="fa-solid fa-address-book"></i> CONTACTS
-          </h2>
-        </div>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-md-11 mx-auto" id="contact">
-              <div class="table-responsive">
-                <table id="table" class="table dark-table">
-                  <tr>
-                    <th class="text-center fs-4">
-                      <i class="fa-solid fa-envelope"></i>
-                    </th>
-                    <td>radoheritiana.rhja.123@gmail.com</td>
-                  </tr>
-                  <tr>
-                    <th class="text-center fs-4">
-                      <i class="fa-brands fa-facebook"></i>
-                    </th>
-                    <td>
-                      <a
-                        href="https://www.facebook.com/jose.alain.radoheritiana.99"
-                        >José Alain Radoheritiana</a
-                      >
-                    </td>
-                  </tr>
-                  <tr>
-                    <th class="text-center fs-4">
-                      <i class="fa-brands fa-github"></i>
-                    </th>
-                    <td>
-                      <a href="https://github.com/radoheritiana"
-                        >Radoheritiana</a
-                      >
-                    </td>
-                  </tr>
-                  <tr>
-                    <th class="text-center fs-4">
-                      <i class="fa-solid fa-phone"></i>
-                    </th>
-                    <td>+261337200691 / +261327495039</td>
-                  </tr>
-                  <tr>
-                    <th class="text-center fs-4">
-                      <i class="fa-brands fa-whatsapp"></i>
-                    </th>
-                    <td>+261327495039</td>
-                  </tr>
-                  <tr>
-                    <th class="text-center fs-4">
-                      <i class="fa-brands fa-linkedin"></i>
-                    </th>
-                    <td>
-                      <a
-                        href="https://www.linkedin.com/in/jose-alain-radoheritiana-8bb905217/"
-                        >José Alain Radoheritiana</a
-                      >
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row footer">
-      <div class="row">
-        <div class="col-md-8 mx-auto">
-          <div class="row text-center p-3 font-regular-montserrat">
-            <div class="text-muted">
-              Built by R.H.J.A <span>&copy;</span> 2022
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- JavaScript -->
-    <script src="./assets/js/jquery-3.6.4.slim.min.js"></script>
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/ityped-cdn.js"></script>
-    <script src="./assets/js/ityped.js"></script>
-    <script src="./assets/js/theme.js"></script>
-    <script src="./assets/js/scroll.js"></script>
-  </body>
+        </footer>
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
+        <script src="js/components/masonry.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+        <!-- type -->
+        <script src="js/ityped-cdn.js"></script>
+        <script src="js/ityped.js"></script>
+
+    </body>
+    <!-- END BODY -->
 </html>
