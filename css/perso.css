@@ -154,3 +154,25 @@
   .hide {
 	display: none;
   }
+
+  .btn-perso {
+	padding: 15px 20px 10px 20px;
+	border-radius: 5px;
+	background-color: #fff;
+	color: #515769;
+	font-size: 1em;
+	font-weight: 600;
+	text-transform: uppercase;
+	border: none;
+	transition: all 0.2s ease;
+  }
+
+  .btn-perso:hover {
+	background-color: #515769;
+	color: #fff;
+	cursor: pointer;
+  }
+
+  .btn-perso:active {
+	transform: scale(0.95);
+  }
