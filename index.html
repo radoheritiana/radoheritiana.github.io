@@ -42,6 +42,14 @@
     <!-- BODY -->
     <body id="body" data-spy="scroll" data-target=".header">
 
+        <!-- preloader -->
+
+        <div class="preloader">
+            <img src="img/preloader.gif" alt="Preloader">
+        </div>
+
+        <!-- end preloader -->
+        
         <!--========== HEADER ==========-->
         <header class="header navbar-fixed-top">
             <!-- Navbar -->
@@ -424,6 +432,14 @@
         <!-- type -->
         <script src="js/ityped-cdn.js"></script>
         <script src="js/ityped.js"></script>
+
+        <script>
+            window.onload = function() {
+                setInterval(() => {
+                    document.querySelector(".preloader").classList.add("hide");
+                }, 3000);
+            }
+        </script>
 
     </body>
     <!-- END BODY -->
