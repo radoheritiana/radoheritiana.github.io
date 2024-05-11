@@ -98,7 +98,7 @@
                             <li><a target="_blank" href="https://www.linkedin.com/in/josé-alain-radoheritiana-8bb905217" class="social-icons"><i class="ti ti-brand-linkedin"></i></a></li>
                             <li><a target="_blank" href="https://www.facebook.com/jose.alain.radoheritiana.99" class="social-icons"><i class="ti ti-brand-facebook"></i></a></li>
                         </ul>
-                        <button class="btn-perso" type="button">Download CV</button>
+                        <button onclick="downloadCV()" class="btn-perso" type="button">Download CV</button>
                     </div>
                 </div>
                 <!--// end row -->
@@ -427,6 +427,10 @@
                 setInterval(() => {
                     document.querySelector(".preloader").classList.add("hide");
                 }, 3000);
+            }
+
+            function downloadCV () {
+                window.open("https://drive.google.com/file/d/1jQH3LLRcGGW3CwJx8CTJDQEq0BZFXwzV/view?usp=sharing", 'download');
             }
         </script>
 
