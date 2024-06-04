@@ -504,9 +504,13 @@
         <!-- type -->
         <script src="js/ityped-cdn.js"></script>
         <script src="js/ityped.js"></script>
+        <script src="js/browser.js"></script>
 
         <script>
             window.onload = function() {
+
+                new cursoreffects.fairyDustCursor();
+
                 setInterval(() => {
                     document.querySelector(".preloader").classList.add("hide");
                 }, 3000);
