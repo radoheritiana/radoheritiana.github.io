@@ -1,3 +1,40 @@
+:root {
+	--black-color-primary: #111827;
+	--black-color-secondary: #1f2937;
+	--blue-color-primary: #1a56db;
+	--white-color-primary: #ffffff;
+	--white-color-secondary: #a5a6a9;
+}
+
+body {
+	background-color: var(--black-color-primary);
+	color: var(--white-color-primary);
+}
+.header, .navbar, .service {
+	background-color: var(--black-color-primary) !important;
+	color: var(--white-color-primary) !important;
+}
+
+.navbar {
+	border: none !important;
+}
+
+.toogle-icon {
+	color: var(--white-color-primary) !important;
+}
+
+.nav-item-child, .logo-img {
+	color: var(--white-color-primary) !important;
+}
+.text-right {
+	text-align: left;
+}
+.text-right h2 {
+	color: var(--white-color-primary) !important;
+}
+.text-right p {
+	color: var(--white-color-secondary) !important;
+}
 .promo-block {
   height: 100vh;
 }
@@ -9,6 +46,16 @@
   font-weight: 500;
 }
 
+.hero-img {
+	width: 60%;
+}
+
+.hero-img-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .social-icons {
   width: 60px;
   height: 60px;
@@ -18,6 +65,7 @@
 .skills-title {
   text-align: left;
   font-weight: 600;
+  color: var(--white-color-primary) !important;
 }
 
 .skills-list {
@@ -26,21 +74,21 @@
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
+  margin-bottom: 2.5em;
 }
 
 .skills-list-item {
-  background-color: #17bed2;
+  background-color: var(--black-color-secondary);
   padding: 7px 15px;
   border-radius: 20px;
-  color: #ffffff;
+  color: var(--white-color-secondary);
   font-size: 18px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.03s ease-in-out;
 }
 
 .skills-list-item:hover {
-  background-color: #0c9095;
   cursor: pointer;
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
 .logo-img {
@@ -49,11 +97,11 @@
 }
 
 .logo-img-main {
-  color: #fff;
+  color: var(--white-color-primary);
 }
 
 .logo-img-active {
-  color: #515769;
+  color: var(--white-color-secondary);
 }
 
 .presentation {
@@ -69,7 +117,7 @@
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
-	margin: 20px;
+	margin-bottom: 20px;
 	border: 1px solid #4343434b;
   }
 
@@ -88,7 +136,7 @@
   
   .card-content {
 	position: absolute;
-	color: #fff;
+	color: var(--white-color-secondary);
 	height: 60%;
 	margin: auto;
 	padding: 15px;
@@ -96,7 +144,7 @@
   
   .card-content h2{
 	margin-top: 0;
-	color:#17bed2;
+	color: var(--white-color-primary);
 	text-align: center;
 	transition: all 0.5s ease-in-out;
 	opacity: 0;
@@ -105,7 +153,7 @@
   .card-content p {
 	transition: all 0.5s ease-in-out;
 	opacity: 0;
-	color: #fff;
+	color: var(--white-color-secondary);
 	text-align: center;
   }
 
@@ -118,7 +166,7 @@
   }
 
   .card:hover img {
-	filter: brightness(30%);
+	filter: brightness(20%);
   }
 
   .badges {
@@ -136,12 +184,12 @@
   
   .badge {
 	display: inline-block;
-	padding: 10px 10px 5px 10px;
+	padding: 15px 20px 10px 20px;
 	margin-right: 5px;
 	margin-bottom: 5px;
 	border-radius: 5px;
-	background-color: #17bed2;
-	color: #fff;
+	background-color: var(--white-color-primary);
+	color: var(--black-color-secondary);
 	text-transform: uppercase;
 	font-size: 0.8em;
   }
@@ -170,8 +218,8 @@
   .btn-perso {
 	padding: 15px 20px 10px 20px;
 	border-radius: 5px;
-	background-color: #fff;
-	color: #515769;
+	background-color: var(--black-color-secondary);
+	color: var(--white-color-primary);
 	font-size: 1em;
 	font-weight: 600;
 	text-transform: uppercase;
