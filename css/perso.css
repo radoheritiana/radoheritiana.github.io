@@ -241,6 +241,14 @@ body {
 	border: 1px solid rgba(133, 133, 133, 0.244);
   }
 
+  .event-img {
+	max-width: 100%;
+  }
+
+  .pt-5 {
+	padding-bottom: 2em;
+  }
+
   @media screen and (max-width: 600px) {
 	.promo-block-title {
 		font-size: 2.8em !important;
