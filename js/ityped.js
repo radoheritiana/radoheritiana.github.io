@@ -1,9 +1,8 @@
 const pres = () => {
   ityped.init("#type", {
     strings: [
+      "Software Engineer",
       "FullStack Developer",
-      "Web Developer",
-      "Mobile Developer",
     ],
     typeSpeed: 80,
     backSpeed: 50,
