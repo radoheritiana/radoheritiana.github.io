@@ -874,5 +874,5 @@ body {
 	z-index: -1000;
 	width: 100%;
 	height: 100vh;
-	background: linear-gradient(to bottom right, #0d1117, #010336, #00034f);
+	background: linear-gradient(to bottom right, var(--hero-bg-start), var(--hero-bg-middle), var(--hero-bg-end));
 }
