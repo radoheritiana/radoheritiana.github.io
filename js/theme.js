@@ -7,7 +7,7 @@
 
     const themeToggleBtn = document.getElementById('theme-toggle');
     const themeIcon = themeToggleBtn ? themeToggleBtn.querySelector('i') : null;
-    
+
     // Check for saved theme preference, otherwise use system preference
     const getPreferredTheme = () => {
         const storedTheme = localStorage.getItem('theme');
@@ -31,6 +31,12 @@
         } else {
             themeIcon.classList.remove('ti-sun');
             themeIcon.classList.add('ti-moon');
+        }
+
+        // Update Logo
+        const logoImage = document.getElementById('logo-image');
+        if (logoImage) {
+            logoImage.src = theme === 'dark' ? 'img/rhja-dark-mode.png' : 'img/rhja-light-mode.png';
         }
     };
 

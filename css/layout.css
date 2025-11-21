@@ -626,6 +626,7 @@ fieldset[disabled] .btn-theme {
 .footer {
   background: var(--bg-footer);
   transition: background-color 0.3s ease;
+  border-top: 1px solid var(--border-color);
 }
 
 /*------------------------------------------------------------------
@@ -639,7 +640,7 @@ fieldset[disabled] .btn-theme {
 /* Navbar */
 .header .navbar {
   margin-bottom: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid var(--border-color);
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -740,25 +741,12 @@ fieldset[disabled] .btn-theme {
 
 .header .logo-img {
   display: inline-block;
-  width: 64px;
-  height: auto;
+  width: auto;
+  height: 64px;
+  /* Adjust height as needed */
   max-width: 100%;
   max-height: 100%;
   vertical-align: middle;
-}
-
-.header .logo-img-main {
-  display: inline-block;
-  transition-duration: 400ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
-
-.header .logo-img-active {
-  display: none;
-  transition-duration: 400ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
 /* Navbar */
@@ -832,27 +820,29 @@ fieldset[disabled] .btn-theme {
 
 /* Theme Toggle Button */
 .theme-toggle-btn {
-  background: var(--toggle-btn-bg);
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 99;
+  width: 40px;
+  height: 40px;
+  background: #515769;
   border: none;
-  color: var(--toggle-btn-color);
+  color: #fff;
   font-size: 20px;
   cursor: pointer;
-  padding: 10px;
-  border-radius: 50%;
+  padding: 0;
+  border-radius: 3px;
   transition: all 0.3s ease;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-left: 15px;
-  vertical-align: middle;
-  line-height: 65px;
-  float: left;
-  margin-top: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .theme-toggle-btn:hover {
-  background: var(--toggle-btn-hover-bg);
-  color: var(--accent-color);
+  background: var(--accent-color);
+  color: #fff;
 }
 
 /* Media Queries below 991px */
@@ -997,7 +987,7 @@ fieldset[disabled] .btn-theme {
 .back-to-top {
   position: fixed;
   right: 10px;
-  bottom: 10px;
+  bottom: 60px;
   display: inline-block;
   z-index: 9;
   width: 40px;

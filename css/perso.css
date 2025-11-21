@@ -10,10 +10,6 @@ body {
 	color: var(--text-main);
 }
 
-.navbar {
-	border: none !important;
-}
-
 .toogle-icon {
 	color: var(--text-main) !important;
 }
@@ -212,8 +208,23 @@ body {
 	z-index: 10000;
 }
 
-.preloader img {
-	width: 150px;
+.preloader .spinner {
+	width: 50px;
+	height: 50px;
+	border: 5px solid var(--bg-section-alt);
+	border-top: 5px solid var(--accent-color);
+	border-radius: 50%;
+	animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
 }
 
 .hide {
