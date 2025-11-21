@@ -11,7 +11,7 @@
     <meta content="" name="author" />
 
     <!-- GLOBAL MANDATORY STYLES -->
-    <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+
     <link href="vendor/tabler-icons-3.2.0/webfont/tabler-icons.min.css" rel="stylesheet" type="text/css" />
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
@@ -36,7 +36,7 @@
     <!-- preloader -->
 
     <div class="preloader">
-        <img src="img/preloader.gif" alt="Preloader">
+        <div class="spinner"></div>
     </div>
 
     <!-- end preloader -->
@@ -56,17 +56,12 @@
                     <!-- Logo -->
                     <div class="logo">
                         <a class="logo-wrap" href="#body">
-                            <h3 class="logo-img logo-img-main">{rhja}</h3>
-                            <h3 class="logo-img logo-img-active">{rhja}</h3>
+                            <img id="logo-image" class="logo-img" src="img/rhja-light-mode.png" alt="rhja logo">
                         </a>
                     </div>
                     <!-- End Logo -->
-                    
-                    <!-- Theme Toggle -->
-                    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark Mode">
-                        <i class="ti ti-moon"></i>
-                    </button>
-                    <!-- End Theme Toggle -->
+
+
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -146,7 +141,8 @@
                 </div>
                 <div class="col-sm-10">
                     <div class="margin-b-60 text-justify">
-                        <p class="presentation">Hi everyone! My name is Rado. I am Software Engineer from Madagascar. I am passionate
+                        <p class="presentation">Hi everyone! My name is Rado. I am Software Engineer from Madagascar. I
+                            am passionate
                             about new technology and I am always eager to learn new things. I am always up for a
                             challenge and I am not afraid to step outside of my comfort zone.</p>
                         <p class="presentation">In addition to my passion for technology, I also have a number of other
@@ -192,7 +188,8 @@
                     <h4 class="skills-title">Mobile Development</h4>
                     <div class="skills-list">
                         <div class="skills-list-item"><i class="ti ti-brand-flutter"></i> Flutter</div>
-                        <div class="skills-list-item"><i class="ti ti-brand-android"></i> Android with Java, Kotlin & Jetpack Compose</div>
+                        <div class="skills-list-item"><i class="ti ti-brand-android"></i> Android with Java, Kotlin &
+                            Jetpack Compose</div>
                     </div>
                     <h4 class="skills-title">Database</h4>
                     <div class="skills-list">
@@ -233,59 +230,63 @@
                         </div>
                     </div>
                     <div class="col-sm-10">
-                        <div class="row row-space-2 margin-b-4">
-                            <div class="col-md-4 md-margin-b-4">
-                                <div class="service" data-height="height">
-                                    <div class="service-element">
-                                        <i class="service-icon color-white ti ti-braces"></i>
+                        <div class="timeline">
+
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-header">
+                                        <h3 class="timeline-title">Developer FullStack</h3>
+                                        <span class="timeline-date">November 2024 - Now</span>
                                     </div>
-                                    <div class="service-info">
-                                        <h3 class="color-white">Developer intern</h3>
-                                        <p class="margin-b-5">FMFP Ankorondrano</p>
-                                        <hr>
-                                        <p>
-                                            Août - Octobre 2023
-                                        </p>
-                                        <hr>
-                                        <p>
-                                            <b>Stacks :</b> Codeigniter, HTML, CSS, Javascript
-                                        </p>
-                                    </div>
-                                    <a href="#" class="content-wrapper-link"></a>
+                                    <h4 class="timeline-subtitle">E-saina Antsirabe</h4>
+                                    <p>
+                                        <b>Stacks :</b> Symfony, Laravel, Express js, React js, Vue js
+                                    </p>
                                 </div>
                             </div>
-                            <div class="col-md-4 md-margin-b-4">
-                                <div class="service">
-                                    <div class="service-element">
-                                        <i class="service-icon color-white ti ti-award"></i>
+
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-header">
+                                        <h3 class="timeline-title">Developer intern</h3>
+                                        <span class="timeline-date">Août - Octobre 2023</span>
                                     </div>
-                                    <div class="service-info">
-                                        <h3 class="color-white">Hackathon</h3>
-                                        <p class="margin-b-5">
-                                            Hackathon Inter Universitaire (Third place HIU 2023)
-                                            <hr />
-                                            <span>Hackaton ZahaGeek 3.0 2024 (Third place) </span>
-                                            <hr />
-                                            <span>24hByWebcup, Frontend Awards, ...</span>
-                                        </p>
-                                    </div>
-                                    <a href="#" class="content-wrapper-link"></a>
+                                    <h4 class="timeline-subtitle">FMFP Ankorondrano</h4>
+                                    <p>
+                                        <b>Stacks :</b> Codeigniter, HTML, CSS, Javascript
+                                    </p>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="service" data-height="height">
-                                    <div class="service-element">
-                                        <i class="service-icon color-white ti ti-code"></i>
+
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-header">
+                                        <h3 class="timeline-title">Hackathon</h3>
+                                        <span class="timeline-date">2023 - 2024</span>
                                     </div>
-                                    <div class="service-info">
-                                        <h3 class="color-white">Personnal Project</h3>
-                                        <p class="margin-b-5">Various personal and school projects carried out</p>
-                                        <hr/>
-                                        <p>
-                                            > Artificial Intelligence<br>> Web Development<br>> Mobile Development
-                                        </p>
+                                    <h4 class="timeline-subtitle">Competitions</h4>
+                                    <ul class="timeline-list">
+                                        <li>Hackathon Inter Universitaire (Third place HIU 2023)</li>
+                                        <li>Hackaton ZahaGeek 3.0 2024 (Third place)</li>
+                                        <li>24hByWebcup, Frontend Awards, ...</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-header">
+                                        <h3 class="timeline-title">Personal Project</h3>
+                                        <span class="timeline-date">Ongoing</span>
                                     </div>
-                                    <a href="#" class="content-wrapper-link"></a>
+                                    <h4 class="timeline-subtitle">Various personal and school projects</h4>
+                                    <p>
+                                        > Artificial Intelligence<br>> Web Development<br>> Mobile Development
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -372,7 +373,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <a href="https://twisty-team-github-users-search.netlify.app/" target="_blank"  class="card">
+                            <a href="https://twisty-team-github-users-search.netlify.app/" target="_blank" class="card">
                                 <img src="img/user-search.webp" alt="Image de fond">
                                 <div class="card-content">
                                     <h2>Github user search</h2>
@@ -387,7 +388,7 @@
                             </a>
                         </div>
                         <div class="col-md-6">
-                            <a href="https://pypi.org/project/ankamantatra/" target="_blank"  class="card">
+                            <a href="https://pypi.org/project/ankamantatra/" target="_blank" class="card">
                                 <img src="img/quiz.png" alt="Image de fond">
                                 <div class="card-content">
                                     <h2>Quiz app cli</h2>
@@ -414,7 +415,8 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <a href="https://radoheritiana.github.io/spudster-challenge-1/" target="_blank"  class="card">
+                            <a href="https://radoheritiana.github.io/spudster-challenge-1/" target="_blank"
+                                class="card">
                                 <img src="img/lombok.png" alt="Image de fond">
                                 <div class="card-content">
                                     <h2>Lombok</h2>
@@ -427,7 +429,7 @@
                             </a>
                         </div>
                         <div class="col-md-6">
-                            <a href="https://radoheritiana.github.io/ufc-w2-endasmu/" target="_blank"  class="card">
+                            <a href="https://radoheritiana.github.io/ufc-w2-endasmu/" target="_blank" class="card">
                                 <img src="img/endasmu.png" alt="Image de fond">
                                 <div class="card-content">
                                     <h2>Endasmu</h2>
@@ -440,7 +442,7 @@
                             </a>
                         </div>
                         <div class="col-md-6">
-                            <a href="https://radoheritiana.github.io/ufc-drone/" target="_blank"  class="card">
+                            <a href="https://radoheritiana.github.io/ufc-drone/" target="_blank" class="card">
                                 <img src="img/drone.png" alt="Image de fond">
                                 <div class="card-content">
                                     <h2>Drone</h2>
@@ -468,7 +470,7 @@
                             </a>
                         </div>
                         <div class="col-md-6">
-                            <a href="https://radoheritiana.github.io/ufc-s2-mntn" target="_blank"  class="card">
+                            <a href="https://radoheritiana.github.io/ufc-s2-mntn" target="_blank" class="card">
                                 <img src="img/mntn.png" alt="Image de fond">
                                 <div class="card-content">
                                     <h2>MNTN</h2>
@@ -519,7 +521,8 @@
                             <div class="col-md-12">
                                 <div class="row">
                                     <div class="col-md-6 pt-5">
-                                        <img class="event-img" src="./img//event/wcc.webp" alt="Weekly Coding Challenge"/>
+                                        <img class="event-img" src="./img//event/wcc.webp"
+                                            alt="Weekly Coding Challenge" />
                                     </div>
                                     <div class="col-md-6 pt-5">
                                         <h3 class="color-white">Weekly Coding Challenge 2nd edition</h3>
@@ -532,7 +535,8 @@
                             <div class="col-md-12">
                                 <div class="row">
                                     <div class="col-md-6 pt-5">
-                                        <img class="event-img" src="./img//event/hiu23.webp" alt="Hackathon Inter Universitaire 2023"/>
+                                        <img class="event-img" src="./img//event/hiu23.webp"
+                                            alt="Hackathon Inter Universitaire 2023" />
                                     </div>
                                     <div class="col-md-6 pt-5">
                                         <h3 class="color-white">Hackathon Inter Universitaire 2023</h3>
@@ -545,7 +549,8 @@
                             <div class="col-md-12">
                                 <div class="row">
                                     <div class="col-md-6 pt-5">
-                                        <img class="event-img" src="./img//event/zg.JPG" alt="Hackathon Zaha Geek 3.0 2024"/>
+                                        <img class="event-img" src="./img//event/zg.JPG"
+                                            alt="Hackathon Zaha Geek 3.0 2024" />
                                     </div>
                                     <div class="col-md-6 pt-5">
                                         <h3 class="color-white">Hackathon Zaha Geek 3.0 2024</h3>
@@ -577,19 +582,19 @@
                     <div class="col-sm-10">
                         <div class="row">
                             <div class="col-md-3 col-xs-6 md-margin-b-30">
-                                <h5 class="color-white"><i class="ti ti-map-pin"></i> Location</h5>
+                                <h5 class=""><i class="ti ti-map-pin"></i> Location</h5>
                                 <a href="#">Antsirabe, Madagascar</a>
                             </div>
                             <div class="col-md-3 col-xs-6 md-margin-b-30">
-                                <h5 class="color-white"><i class="ti ti-brand-whatsapp"></i> Whatsapp</h5>
+                                <h5 class=""><i class="ti ti-brand-whatsapp"></i> Whatsapp</h5>
                                 <a target="_blank" href="https://wa.me/+261339332385">+261 33 93 323 85</a>
                             </div>
                             <div class="col-md-3 col-xs-6">
-                                <h5 class="color-white"><i class="ti ti-brand-gmail"></i> Email</h5>
+                                <h5 class=""><i class="ti ti-brand-gmail"></i> Email</h5>
                                 <a target="_blank" href="mailto:jradoheritiana@gmail.com">jradoheritiana@gmail.com</a>
                             </div>
                             <div class="col-md-3 col-xs-6">
-                                <h5 class="color-white"><i class="ti ti-brand-facebook"></i> Facebook</h5>
+                                <h5 class=""><i class="ti ti-brand-facebook"></i> Facebook</h5>
                                 <a target="_blank" href="https://www.facebook.com/jose.alain.radoheritiana.99">José
                                     Alain Radoheritiana</a>
                             </div>
@@ -615,6 +620,12 @@
         </div>
     </footer>
     <!--========== END FOOTER ==========-->
+
+    <!-- Theme Toggle -->
+    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark Mode">
+        <i class="ti ti-moon"></i>
+    </button>
+    <!-- End Theme Toggle -->
 
     <!-- Back To Top -->
     <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
