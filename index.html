@@ -37,8 +37,11 @@
 
     <!-- preloader -->
 
-    <div class="preloader">
-        <div class="spinner"></div>
+    <div class="preloader" aria-label="Loading portfolio">
+        <div class="preloader-mark">
+            <img id="preloader-logo" src="img/rhja-light-mode.png" alt="RHJA">
+            <span>Hello. Discover my work and enjoy your visit. </span>
+        </div>
     </div>
 
     <!-- end preloader -->
@@ -100,21 +103,20 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="promo-block-divider">
+                        <p class="hero-availability"><span class="availability-dot"></span> Available for freelance</p>
                         <h1 class="promo-block-title promo-block-firstname">José Alain</h1>
                         <h1 class="promo-block-title">RADOHERITIANA</h1>
                         <p class="promo-block-text"><i class="ti ti-terminal"></i> <span id="type"
                                 class="promo-block-text"></span></p>
                     </div>
-                    <p class="hero-value-proposition">Building scalable web applications with Laravel, Symfony &amp;
-                        React.</p>
-                    <p class="hero-availability"><span class="availability-dot"></span> Available for freelance</p>
+                    <p class="hero-value-proposition">Building reliable, scalable web applications that deliver real business value.</p>
                     <div class="hero-stats" aria-label="Professional statistics">
                         <div class="hero-stat">
                             <strong>2+</strong>
                             <span>Years Experience</span>
                         </div>
                         <div class="hero-stat">
-                            <strong>15+</strong>
+                            <strong>20+</strong>
                             <span>Projects</span>
                         </div>
                         <div class="hero-stat">
@@ -128,7 +130,7 @@
                     </div>
                     <div class="hero-cta-group">
                         <button onclick="downloadCV()" class="btn-perso" type="button">Download CV</button>
-                        <a href="#work" class="btn-perso btn-perso-secondary">View Projects</a>
+                        <a href="#work" class="btn-perso btn-perso-secondary">View Projects <i class="ti ti-arrow-up-right"></i></a>
                     </div>
                     <ul class="list-inline margin-b-30">
                         <li><a target="_blank" href="https://github.com/radoheritiana" class="social-icons"><i
@@ -694,12 +696,9 @@
 
     <script>
         window.onload = function () {
-
             new cursoreffects.fairyDustCursor();
 
-            setInterval(() => {
-                document.querySelector(".preloader").classList.add("hide");
-            }, 1000);
+            document.querySelector(".preloader").classList.add("is-hidden");
         }
 
         function downloadCV() {

@@ -38,6 +38,11 @@
         if (logoImage) {
             logoImage.src = theme === 'dark' ? 'img/rhja-dark-mode.png' : 'img/rhja-light-mode.png';
         }
+
+        const preloaderLogo = document.getElementById('preloader-logo');
+        if (preloaderLogo) {
+            preloaderLogo.src = theme === 'dark' ? 'img/rhja-dark-mode.png' : 'img/rhja-light-mode.png';
+        }
     };
 
     // Initialize theme
