@@ -16,6 +16,126 @@ body {
 	color: var(--text-main) !important;
 }
 
+.navbar-shell {
+	display: flex;
+	align-items: center;
+}
+
+.language-switcher {
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 2px;
+	padding: 3px;
+	margin-left: 18px;
+	border: 1px solid var(--border-color);
+	border-radius: 999px;
+	background-color: rgba(255, 255, 255, 0.42);
+	box-shadow: 0 4px 16px rgba(31, 35, 40, 0.12);
+	backdrop-filter: blur(12px);
+	-webkit-backdrop-filter: blur(12px);
+	transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+[data-theme="dark"] .language-switcher {
+	background-color: rgba(13, 17, 23, 0.58);
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.28);
+}
+
+.language-option {
+	position: relative;
+	z-index: 1;
+	width: 32px;
+	height: 28px;
+	padding: 0;
+	border: 0;
+	border-radius: 999px;
+	background: transparent;
+	cursor: pointer;
+	opacity: 0.55;
+	transition: opacity 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
+}
+
+.language-option:hover,
+.language-option:focus {
+	opacity: 1;
+	background-color: rgba(255, 255, 255, 0.42);
+	outline: none;
+}
+
+.language-option.is-active {
+	opacity: 1;
+	background-color: var(--accent-color);
+	box-shadow: 0 2px 8px rgba(9, 105, 218, 0.35);
+	transform: scale(1.04);
+}
+
+.language-option:hover,
+.language-option:focus {
+	transform: translateY(-2px);
+}
+
+.language-flag {
+	display: block;
+	width: 20px;
+	height: 14px;
+	margin: auto;
+	border-radius: 2px;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.12);
+}
+
+@media (min-width: 992px) {
+	.navbar-shell > .menu-container {
+		flex: 0 0 100px;
+	}
+
+	.navbar-shell > .nav-collapse {
+		display: flex !important;
+		flex: 1 1 auto;
+		justify-content: center;
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.navbar-shell .nav-collapse > .menu-container {
+		width: auto;
+	}
+
+	.navbar-shell .navbar-nav {
+		display: flex;
+		float: none;
+		justify-content: center;
+	}
+
+	.navbar-shell .navbar-nav-right {
+		float: none;
+	}
+
+	.navbar-shell > .language-switcher {
+		flex: 0 0 auto;
+		margin-left: 18px;
+	}
+}
+
+@media (max-width: 991px) {
+	.navbar-shell {
+		flex-wrap: wrap;
+	}
+
+	.navbar-shell > .menu-container {
+		flex: 1 1 auto;
+	}
+
+	.navbar-shell > .language-switcher {
+		margin-left: auto;
+	}
+
+	.navbar-shell > .nav-collapse {
+		flex-basis: 100%;
+		order: 3;
+	}
+}
+
 .text-right {
 	text-align: left;
 }

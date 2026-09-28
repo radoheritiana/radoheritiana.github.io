@@ -1,8 +1,8 @@
 const pres = () => {
   ityped.init("#type", {
     strings: [
-      "Software Engineer",
-      "FullStack Developer",
+      window.siteLanguage === "fr" ? "Ingénieur logiciel" : "Software Engineer",
+      window.siteLanguage === "fr" ? "Développeur FullStack" : "FullStack Developer",
     ],
     typeSpeed: 80,
     backSpeed: 50,
