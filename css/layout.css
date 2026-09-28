@@ -249,7 +249,7 @@ h4 {
 
 /* Section Seperator */
 .section-seperator {
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid transparent;
 }
 
 /* Content Wrapper Link */
@@ -430,7 +430,7 @@ fieldset[disabled] .btn-theme {
   	[Promo Block]
 ------------------------------------------------------------------*/
 .promo-block {
-  padding: 220px 0 130px;
+  padding: 150px 0 130px;
 }
 
 .promo-block .promo-block-title {
@@ -651,11 +651,11 @@ fieldset[disabled] .btn-theme {
 /* Navbar */
 .header .navbar {
   margin-bottom: 0;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid transparent;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-  background: var(--bg-header);
+  background: transparent;
 }
 
 /* Navbar Toggle */
@@ -862,7 +862,7 @@ fieldset[disabled] .btn-theme {
   /* Bootstrap collapse of navigation with a maximum width: 991px
     (Change it to any breakpoint you want to be collapsed) */
   .header {
-    background: var(--bg-header);
+    background: transparent;
   }
 
   .header .navbar-toggle {
@@ -875,6 +875,7 @@ fieldset[disabled] .btn-theme {
 
   .header .navbar-collapse.collapse.in {
     display: block !important;
+    background: var(--bg-header);
   }
 
   .header .nav-collapse {
@@ -961,10 +962,17 @@ fieldset[disabled] .btn-theme {
 }
 
 /* Page On Scroll */
+.page-on-scroll .header {
+  background: var(--bg-header);
+}
+
+.page-on-scroll .header .navbar {
+  background: var(--bg-header);
+  border-bottom-color: var(--border-color);
+}
+
 @media (min-width: 992px) {
   .page-on-scroll .header .navbar {
-    background: var(--bg-header);
-    border-bottom-color: var(--border-color);
     transition-duration: 300ms;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
